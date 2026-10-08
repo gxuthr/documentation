@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-28 17:32+0000\n"
+"POT-Creation-Date: 2026-10-02 17:31+0000\n"
 "PO-Revision-Date: 2026-08-31 20:09+0000\n"
 "Last-Translator: \"Fernanda Alvarez (mfar)\" <mfar@odoo.com>\n"
 "Language-Team: Spanish (Latin America) <https://translate.odoo.com/projects/"
@@ -5642,8 +5642,8 @@ msgid ":ref:`Payslip <payroll/new-payslip>`"
 msgstr ":ref:`Recibo de nómina <payroll/new-payslip>`"
 
 #: ../../content/applications/essentials/property_fields.rst:194
-msgid ":ref:`Structure <payroll/structure-types>`"
-msgstr ":ref:`Estructura <payroll/structure-types>`"
+msgid ":ref:`Structure <payroll/salaries/structure-types>`"
+msgstr ""
 
 #: ../../content/applications/essentials/property_fields.rst:195
 msgid ":guilabel:`Planning`"
@@ -7094,6 +7094,9 @@ msgstr ""
 "Selecciona un equipo en el campo :guilabel:`Equipos` en el formulario "
 "de :guilabel:`Etapas`. Puedes seleccionar más de un equipo, ya que la misma "
 "etapa se puede asignar a varios equipos."
+
+#~ msgid ":ref:`Structure <payroll/structure-types>`"
+#~ msgstr ":ref:`Estructura <payroll/structure-types>`"
 
 #~ msgid ":ref:`Applicant <recruitment/quick-add-applicant>`"
 #~ msgstr ":ref:`Candidato <recruitment/quick-add-applicant>`"

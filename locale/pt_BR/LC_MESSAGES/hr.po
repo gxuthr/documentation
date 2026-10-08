@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo 18.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-11 17:33+0000\n"
+"POT-Creation-Date: 2026-10-02 17:31+0000\n"
 "PO-Revision-Date: 2026-08-27 15:39+0000\n"
 "Last-Translator: \"Maitê Dietze (madi)\" <madi@odoo.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.odoo.com/projects/"
@@ -18183,7 +18183,7 @@ msgstr ""
 "como configurar várias empresas."
 
 #: ../../content/applications/hr/payroll.rst:95
-#: ../../content/applications/hr/payroll.rst:153
+#: ../../content/applications/hr/payroll.rst:152
 msgid ":doc:`payroll/payroll_localizations`"
 msgstr ":doc:`payroll/payroll_localizations`"
 
@@ -18331,14 +18331,10 @@ msgid ":doc:`payroll/commissions`"
 msgstr ":doc:`payroll/commissions`"
 
 #: ../../content/applications/hr/payroll.rst:150
-msgid ":doc:`payroll/payroll_analysis`"
-msgstr ":doc:`payroll/payroll_analysis`"
-
-#: ../../content/applications/hr/payroll.rst:151
 msgid ":doc:`payroll/headcount`"
 msgstr ":doc:`payroll/headcount`"
 
-#: ../../content/applications/hr/payroll.rst:152
+#: ../../content/applications/hr/payroll.rst:151
 msgid ":doc:`payroll/work_entry_analysis`"
 msgstr ":doc:`payroll/work_entry_analysis`"
 
@@ -18780,15 +18776,9 @@ msgid ""
 ":guilabel:`Pay Category`: Select one of the default pay categories using the "
 "drop-down menu. The default pay categories are :guilabel:`Employee` "
 "or :guilabel:`Worker`, which are pulled from the configured *salary "
-"structures* in the **Payroll** app. A :ref:`new pay category <payroll/new-"
-"structure-type>` can be created, if needed."
+"structures* in the **Payroll** app. A :ref:`new pay category <payroll/"
+"salaries/new-structure-type>` can be created, if needed."
 msgstr ""
-":guilabel:`Categoria Salarial`: Selecione uma das categorias salariais "
-"padrão usando o menu suspenso. As categorias salariais padrão "
-"são :guilabel:`Funcionário` ou :guilabel:`Trabalhador`, que são obtidas das "
-"*estruturas salariais* configuradas no aplicativo **Folha de Pagamento**. "
-"Uma :ref:`nova categoria salarial <payroll/new-structure-type>` pode ser "
-"criada, se necessário."
 
 #: ../../content/applications/hr/payroll/contracts.rst:117
 msgid ""
@@ -19715,190 +19705,6 @@ msgstr "`15-31 ago 2025 - Horista`"
 #: ../../content/applications/hr/payroll/pay_runs.rst:199
 msgid "`Aug 15-31 2025 - Salary`"
 msgstr "`15-31 ago 2025 - Assalariado`"
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:3
-msgid "Payroll analysis"
-msgstr "Análise de folha de pagamento"
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:5
-msgid ""
-"The *Payroll Analysis* report displays the total net wage for the company, "
-"for the last 365 days. This report allows companies to view their payroll "
-"costs and identify any trends."
-msgstr ""
-"O relatório *Análise de Folha de Pagamento* exibe o salário líquido total da "
-"empresa nos últimos 365 dias. Este relatório permite que as empresas "
-"visualizem seus custos de folha de pagamento e identifiquem quaisquer "
-"tendências."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:8
-msgid ""
-"To view the *Payroll Analysis* report, navigate to :menuselection:`Payroll "
-"app --> Reporting --> Payroll`."
-msgstr ""
-"Para visualizar o relatório *Análise de Folha de Pagamento*, navegue "
-"até :menuselection:`aplicativo Folha de Pagamento --> Relatórios --> Folha "
-"de Pagamento`."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:11
-msgid ""
-":guilabel:`Net Wage` is the default metric displayed in the report, but "
-"other measures can be displayed if desired, such as *gross wage* or *days of "
-"paid time off*. Click the :guilabel:`Measures` :icon:`fa-caret-down` button "
-"to view a drop-down menu of other metrics to display. Click on the desired "
-"measure to display the results."
-msgstr ""
-":guilabel:`Salário Líquido` é a métrica padrão exibida no relatório, mas "
-"outras medidas podem ser exibidas se desejado, como *salário bruto* ou *dias "
-"de folga remunerada*. Clique no botão :guilabel:`Medidas` :icon:`fa-caret-"
-"down` para visualizar um menu suspenso de outras métricas a serem exibidas. "
-"Clique na medida desejada para exibir os resultados."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:None
-msgid "Payroll overview report showing payroll for the last 365 days."
-msgstr "Relatório de visão geral da folha de pagamento dos últimos 365 dias."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:22
-msgid "View multiple metrics"
-msgstr "Visualizar múltiplas métricas"
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:24
-msgid ""
-"It is possible to view multiple metrics at one time by viewing the report in "
-"the *pivot table* view. This can aid management to determine other trends, "
-"such as which departments do not take time off, or which departments have "
-"the highest payroll costs."
-msgstr ""
-"É possível visualizar múltiplas métricas ao mesmo tempo visualizando o "
-"relatório na visualização de *tabela dinâmica*. Isso pode ajudar a gestão a "
-"determinar outras tendências, como quais departamentos não tiram folgas, ou "
-"quais departamentos têm os maiores custos de folha de pagamento."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:29
-msgid ""
-"**Only one** measure is able to be displayed in the default :icon:`fa-area-"
-"chart` :guilabel:`Graph` view. Multiple measures are **only** possible in "
-"the :icon:`oi-view-pivot` :guilabel:`Pivot` view."
-msgstr ""
-"**Apenas uma** medida pode ser exibida na visualização padrão :icon:`fa-area-"
-"chart` :guilabel:`Gráfico`. Múltiplas medidas são possíveis **apenas** na "
-"visualização :icon:`oi-view-pivot` :guilabel:`Dinâmica`."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:33
-msgid ""
-"To display the data in a pivot table, click on the :icon:`oi-view-"
-"pivot` :guilabel:`Pivot` button."
-msgstr ""
-"Para exibir os dados em uma tabela dinâmica, clique no botão :icon:`oi-view-"
-"pivot` :guilabel:`Dinâmica`."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:35
-msgid ""
-"The default information displayed includes the number of payslips "
-"(:guilabel:`# Payslip`), the number of :guilabel:`Days of Paid Time Off` "
-"and :guilabel:`Days of Unpaid Time Off`, along with the :guilabel:`Net Wage` "
-"and :guilabel:`Gross Wage`. All the information is organized by department."
-msgstr ""
-"As informações padrão exibidas incluem o número de holerites (:guilabel:`# "
-"Holerite`), o número de :guilabel:`Dias de Folga Remunerada` "
-"e :guilabel:`Dias de Folga Não Remunerada`, juntamente com "
-"o :guilabel:`Salário Líquido` e :guilabel:`Salário Bruto`. Todas as "
-"informações são organizadas por departamento."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:39
-msgid ""
-"To display more information on the report, click "
-"the :guilabel:`Measures` :icon:`fa-caret-down` button to reveal a drop-down "
-"menu. Click on any metric to display it on the pivot table."
-msgstr ""
-"Para exibir mais informações no relatório, clique no "
-"botão :guilabel:`Medidas` :icon:`fa-caret-down` para revelar um menu "
-"suspenso. Clique em qualquer métrica para exibi-la na tabela dinâmica."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:None
-msgid "Pivot table view with the various metrics on display."
-msgstr "Visualização de tabela dinâmica com as várias métricas exibidas."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:46
-msgid "Use case: comparing payroll costs"
-msgstr "Caso de uso: comparando custos de folha de pagamento"
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:48
-msgid ""
-"Managers can compare payroll costs, and determine which departments have "
-"raised their payroll costs, either by hiring more employees, or by raising "
-"salaries."
-msgstr ""
-"Os gerentes podem comparar custos de folha de pagamento e determinar quais "
-"departamentos aumentaram seus custos de folha de pagamento, seja contratando "
-"mais funcionários ou aumentando salários."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:51
-msgid ""
-"To compare previous periods of time, first view the *Payroll Analysis* "
-"report in a :ref:`pivot table <payroll_analysis/multiple>`. Then, click "
-"the :icon:`fa-caret-down` :guilabel:`(Toggle Search Panel)` icon in the "
-"search bar, and click  :guilabel:`Start Date` :icon:`fa-caret-down` to "
-"reveal a list of time periods (months, quarters, and years). Click on a "
-"desired time period, and a :icon:`fa-adjust` :guilabel:`Comparison` section "
-"appears in the search bar. Click on one of the two available options, "
-"either :guilabel:`Start Date: Previous Period`, or :guilabel:`Start Date: "
-"Previous Year`."
-msgstr ""
-"Para comparar períodos anteriores, primeiro visualize o relatório *Análise "
-"de Folha de Pagamento* em uma :ref:`tabela dinâmica <payroll_analysis/"
-"multiple>`. Em seguida, clique no ícone :icon:`fa-caret-"
-"down` :guilabel:`(Alternar Painel de Pesquisa)` na barra de pesquisa e "
-"clique em :guilabel:`Data de Início` :icon:`fa-caret-down` para revelar uma "
-"lista de períodos de tempo (meses, trimestres e anos). Clique em um período "
-"de tempo desejado e uma seção :icon:`fa-adjust` :guilabel:`Comparação` "
-"aparece na barra de pesquisa. Clique em uma das duas opções "
-"disponíveis, :guilabel:`Data de Início: Período Anterior` ou :guilabel:`Data "
-"de Início: Ano Anterior`."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:59
-msgid ""
-"The report now displays three columns of information for every displayed "
-"measure: a column for the current time period, a column for the previous "
-"time period, and a :guilabel:`Variation` column, which displays the "
-"difference between the two time periods in a color-coded percentage (green "
-"for increases, red for decreases.)"
-msgstr ""
-"O relatório agora exibe três colunas de informações para cada medida "
-"exibida: uma coluna para o período atual, uma coluna para o período anterior "
-"e uma coluna :guilabel:`Variação`, que exibe a diferença entre os dois "
-"períodos em uma porcentagem codificada por cores (verde para aumentos, "
-"vermelho para diminuições)."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:65
-msgid ""
-"In this example, the data shows an overall increase in the number of "
-"payslips. Since the company pays all employees every two weeks, an increase "
-"in the number of payslips (:guilabel:`# Payslips`) means that more employees "
-"were hired, in this example, a 500% increase."
-msgstr ""
-"Neste exemplo, os dados mostram um aumento geral no número de holerites. "
-"Como a empresa paga todos os funcionários a cada duas semanas, um aumento no "
-"número de holerites (:guilabel:`# Holerites`) significa que mais "
-"funcionários foram contratados, neste exemplo, um aumento de 500%."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:69
-msgid ""
-"Additionally, both the :guilabel:`Net Wage` and :guilabel:`Gross Wage` "
-"increased. The department :guilabel:`RD US` showed the largest growth, with "
-"both metrics increasing by approximately 350%."
-msgstr ""
-"Além disso, tanto o :guilabel:`Salário Líquido` quanto o :guilabel:`Salário "
-"Bruto` aumentaram. O departamento :guilabel:`RD US` apresentou o maior "
-"crescimento, com ambas as métricas aumentando aproximadamente 350%."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:0
-msgid "Pivot table view comparing two years of data."
-msgstr "Visualização de tabela dinâmica comparando dois anos de dados."
-
-#: ../../content/applications/hr/payroll/payroll_analysis.rst:76
-msgid ":doc:`../../essentials/reporting`"
-msgstr ":doc:`../../essentials/reporting`"
 
 #: ../../content/applications/hr/payroll/payroll_localizations.rst:5
 msgid "Payroll localizations"
@@ -21019,14 +20825,9 @@ msgstr ""
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:179
 msgid ""
 "Set a default :guilabel:`Wage Type` in the salary :ref:`Structure Type "
-"<payroll/structure-types>` to configure employees in bulk. If needed, the "
-"default can be overridden on individual employee records if exceptions are "
-"needed."
+"<payroll/salaries/structure-types>` to configure employees in bulk. If "
+"needed, the default can be overridden on individual employee records."
 msgstr ""
-"Defina um :guilabel:`Tipo de Salário` padrão no :ref:`Tipo de Estrutura "
-"<payroll/structure-types>` salarial para configurar funcionários em massa. "
-"Se necessário, o padrão pode ser substituído em registros individuais de "
-"funcionários se exceções forem necessárias."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/australia.rst:291
 msgid ""
@@ -21746,7 +21547,7 @@ msgstr "A estrutura salarial australiana na lista de estruturas salariais."
 #: ../../content/applications/hr/payroll/payroll_localizations/saudi_arabia.rst:236
 #: ../../content/applications/hr/payroll/payroll_localizations/turkey.rst:159
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:359
-#: ../../content/applications/hr/payroll/salaries.rst:176
+#: ../../content/applications/hr/payroll/salaries.rst:197
 msgid "Salary rules"
 msgstr "Regras salariais"
 
@@ -21776,7 +21577,7 @@ msgstr "A parte superior das regras salariais australianas."
 #: ../../content/applications/hr/payroll/payroll_localizations/saudi_arabia.rst:250
 #: ../../content/applications/hr/payroll/payroll_localizations/turkey.rst:175
 #: ../../content/applications/hr/payroll/payroll_localizations/united_states.rst:434
-#: ../../content/applications/hr/payroll/salaries.rst:421
+#: ../../content/applications/hr/payroll/salaries.rst:442
 msgid "Rule parameters"
 msgstr "Parâmetros de regra"
 
@@ -23343,7 +23144,6 @@ msgstr ""
 "tipos de entrada podem ser configurados ou criados."
 
 #: ../../content/applications/hr/payroll/payroll_localizations/australia.rst:1086
-#: ../../content/applications/hr/payroll/salaries.rst:438
 msgid "Other input types"
 msgstr "Outros tipos de entrada"
 
@@ -44243,34 +44043,25 @@ msgstr "Salários"
 
 #: ../../content/applications/hr/payroll/salaries.rst:5
 msgid ""
-"In Odoo, salaries are calculated and determined by five factors: "
-"salary :ref:`structure types <payroll/structure-types>`, "
-"salary :ref:`structures <payroll/structures>`, :ref:`rules <payroll/"
-"rules>`, :ref:`rule parameters <payroll/rule-parameters>`, and :ref:`other "
-"input types <payroll/other-input>`. Together, these determine how each "
-"employee's pay is calculated."
+"In Odoo, salaries are calculated and determined by six factors: "
+"salary :ref:`structure types <payroll/salaries/structure-types>`, "
+"salary :ref:`structures <payroll/salaries/structures>`, :ref:`rules <payroll/"
+"salaries/rules>`, :ref:`rule parameters <payroll/salaries/rule-"
+"parameters>`, :ref:`rule categories <payroll/salaries/rule-categories>`, "
+"and :ref:`salary input types <payroll/salaries/salary-input-types>`. "
+"Together, these determine how each employee's pay is calculated."
 msgstr ""
-"No Odoo, os salários são calculados e determinados por cinco "
-"fatores: :ref:`tipos de estrutura <payroll/structure-types>` "
-"salarial, :ref:`estruturas <payroll/structures>` salariais, :ref:`regras "
-"<payroll/rules>`, :ref:`parâmetros de regras <payroll/rule-parameters>` "
-"e :ref:`outros tipos de entrada <payroll/other-input>`. Juntos, estes "
-"determinam como o pagamento de cada funcionário é calculado."
 
-#: ../../content/applications/hr/payroll/salaries.rst:10
+#: ../../content/applications/hr/payroll/salaries.rst:12
 msgid ""
 "Each *structure type* contains one or more *structures* within it. Each "
-"*structure* contains a set of *rules*, and every *rule* uses *parameters* to "
-"define how specific amounts are calculated. Additional inputs, (such as "
-"bonuses or deductions) can also be included to adjust the final salary."
+"*structure* contains a set of *rules*, and every *rule* uses *parameters* "
+"and *categories* to define how specific amounts are calculated. Additional "
+"salary inputs, such as bonuses or deductions, can also be included to adjust "
+"the final salary."
 msgstr ""
-"Cada *tipo de estrutura* contém uma ou mais *estruturas* dentro dele. Cada "
-"*estrutura* contém um conjunto de *regras*, e cada *regra* usa *parâmetros* "
-"para definir como valores específicos são calculados. Entradas adicionais "
-"(como bônus ou deduções) também podem ser incluídas para ajustar o salário "
-"final."
 
-#: ../../content/applications/hr/payroll/salaries.rst:14
+#: ../../content/applications/hr/payroll/salaries.rst:17
 msgid ""
 "When payslips are calculated, Odoo calculates the employee's worked time "
 "from their :doc:`work entries <work_entries>`, then applies the relevant "
@@ -44282,11 +44073,11 @@ msgstr ""
 "depois aplica a estrutura, regras e parâmetros relevantes do tipo de "
 "estrutura atribuído ao funcionário para determinar seu pagamento total."
 
-#: ../../content/applications/hr/payroll/salaries.rst:21
+#: ../../content/applications/hr/payroll/salaries.rst:24
 msgid "Structure types"
 msgstr "Tipos de estrutura"
 
-#: ../../content/applications/hr/payroll/salaries.rst:23
+#: ../../content/applications/hr/payroll/salaries.rst:26
 msgid ""
 "In Odoo, a *structure type* groups related salary structures. When a "
 "contract specifies a structure type, **only** the structures within that "
@@ -44301,7 +44092,7 @@ msgstr ""
 "contendo um conjunto de regras para processar uma entrada de planilha de "
 "horas."
 
-#: ../../content/applications/hr/payroll/salaries.rst:28
+#: ../../content/applications/hr/payroll/salaries.rst:31
 msgid ""
 "Structure types define key aspects of payroll configuration, including how "
 "often employees are paid, their working hours, the default salary structure, "
@@ -44312,7 +44103,7 @@ msgstr ""
 "horas de trabalho, a estrutura salarial padrão e se os salários são fixos "
 "(baseados em salário) ou variáveis (baseados em horas)."
 
-#: ../../content/applications/hr/payroll/salaries.rst:33
+#: ../../content/applications/hr/payroll/salaries.rst:36
 msgid ""
 "A structure type called `Employee` contains two different structures within "
 "it: a `Regular Pay` structure which includes all the separate rules for "
@@ -44326,7 +44117,7 @@ msgstr ""
 "de Ano`, que inclui as regras **apenas** para o bônus de fim de ano. Ambas "
 "pertencem ao mesmo tipo de estrutura `Funcionário`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:38
+#: ../../content/applications/hr/payroll/salaries.rst:41
 msgid ""
 "View existing *structure types* by navigating to :menuselection:`Payroll app "
 "--> Configuration --> Structure Types`."
@@ -44335,7 +44126,7 @@ msgstr ""
 "até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> Tipos "
 "de Estrutura`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:41
+#: ../../content/applications/hr/payroll/salaries.rst:44
 msgid ""
 "Two default structure types are preconfigured in Odoo: :guilabel:`Employee` "
 "and :guilabel:`Worker`."
@@ -44343,27 +44134,20 @@ msgstr ""
 "Dois tipos de estrutura padrão são pré-configurados no "
 "Odoo: :guilabel:`Funcionário` e :guilabel:`Trabalhador`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:43
+#: ../../content/applications/hr/payroll/salaries.rst:46
 msgid ""
 "Typically, :guilabel:`Employee` is used for salaried employees, which is why "
-"the :guilabel:`Default Wage Type` is a :guilabel:`Fixed Wage`, "
-"and :guilabel:`Worker` is typically used for employees paid by the hour, so "
-"the wage type is :guilabel:`Hourly Wage`."
+"the :guilabel:`Wage Type` is set to :guilabel:`Fixed "
+"Wage`. :guilabel:`Worker` is typically used for employees paid by the hour, "
+"so the wage type is set to :guilabel:`Hourly Wage`."
 msgstr ""
-"Normalmente, :guilabel:`Funcionário` é usado para funcionários assalariados, "
-"razão pela qual o :guilabel:`Tipo de Salário Padrão` é um :guilabel:`Salário "
-"Fixo`, e :guilabel:`Trabalhador` é normalmente usado para funcionários pagos "
-"por hora, portanto o tipo de salário é :guilabel:`Salário por Hora`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:48
+#: ../../content/applications/hr/payroll/salaries.rst:51
 msgid ""
-"If using a country-specific :doc:`payroll localizations "
+"If using a country-specific :doc:`payroll localization "
 "<payroll_localizations>`, it is recommended to use the structure in the "
 "corresponding country localization document."
 msgstr ""
-"Se estiver usando uma :doc:`localização de folha de pagamento "
-"<payroll_localizations>` específica do país, é recomendado usar a estrutura "
-"no documento de localização do país correspondente."
 
 #: ../../content/applications/hr/payroll/salaries.rst:None
 msgid "List of all currently configured structure types available to use."
@@ -44371,11 +44155,11 @@ msgstr ""
 "Lista de todos os tipos de estrutura configurados disponíveis para uso "
 "atualmente."
 
-#: ../../content/applications/hr/payroll/salaries.rst:57
+#: ../../content/applications/hr/payroll/salaries.rst:60
 msgid "New structure type"
 msgstr "Novo tipo de estrutura"
 
-#: ../../content/applications/hr/payroll/salaries.rst:59
+#: ../../content/applications/hr/payroll/salaries.rst:62
 msgid ""
 "If the default structure types do not meet the company's needs, go "
 "to :menuselection:`Payroll app --> Configuration --> Structure Types` and "
@@ -44386,7 +44170,7 @@ msgstr ""
 "Tipos de Estrutura` e clique em :guilabel:`Novo` para criar um tipo de "
 "estrutura personalizado."
 
-#: ../../content/applications/hr/payroll/salaries.rst:63
+#: ../../content/applications/hr/payroll/salaries.rst:66
 msgid ""
 "When creating a new salary structure type, ensure all local and national "
 "laws are accounted for. Confirm with the accounting department when "
@@ -44397,11 +44181,11 @@ msgstr ""
 "departamento financeiro ao configurar estruturas de folha de pagamento, para "
 "garantir que todos os requisitos sejam atendidos."
 
-#: ../../content/applications/hr/payroll/salaries.rst:67
+#: ../../content/applications/hr/payroll/salaries.rst:70
 msgid "Proceed to enter the following information in the fields:"
 msgstr "Prossiga para inserir as seguintes informações nos campos:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:69
+#: ../../content/applications/hr/payroll/salaries.rst:72
 msgid ""
 ":guilabel:`Structure Type`: Enter the name for the new structure type, such "
 "as `Employee` or `Worker`."
@@ -44409,7 +44193,7 @@ msgstr ""
 ":guilabel:`Tipo de Estrutura`: Digite o nome para o novo tipo de estrutura, "
 "como `Funcionário` ou `Trabalhador`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:71
+#: ../../content/applications/hr/payroll/salaries.rst:74
 msgid ""
 ":guilabel:`Country`: Select the country that the new structure type applies "
 "to from the drop-down menu."
@@ -44417,12 +44201,12 @@ msgstr ""
 ":guilabel:`País`: Selecione o país ao qual o novo tipo de estrutura se "
 "aplica no menu suspenso."
 
-#: ../../content/applications/hr/payroll/salaries.rst:73
+#: ../../content/applications/hr/payroll/salaries.rst:76
 msgid ":guilabel:`Wage Type`: Select the wage type for the structure:"
 msgstr ""
 ":guilabel:`Tipo de Salário`: Selecione o tipo de salário para a estrutura:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:75
+#: ../../content/applications/hr/payroll/salaries.rst:78
 msgid ""
 ":guilabel:`Fixed Wage`: For salaried employees who receive the same wage "
 "every pay period."
@@ -44430,7 +44214,7 @@ msgstr ""
 ":guilabel:`Salário Fixo`: Para funcionários assalariados que recebem o mesmo "
 "salário a cada período de pagamento."
 
-#: ../../content/applications/hr/payroll/salaries.rst:76
+#: ../../content/applications/hr/payroll/salaries.rst:79
 msgid ""
 ":guilabel:`Hourly Wage`: For employees paid based on hours worked during a "
 "pay period."
@@ -44438,49 +44222,35 @@ msgstr ""
 ":guilabel:`Salário por Hora`: Para funcionários pagos com base nas horas "
 "trabalhadas durante um período de pagamento."
 
-#: ../../content/applications/hr/payroll/salaries.rst:78
+#: ../../content/applications/hr/payroll/salaries.rst:81
 msgid ""
-":guilabel:`Default Scheduled Pay`: Select the typical pay schedule for the "
-"new structure type from the drop-down menu. This indicates how often this "
+":guilabel:`Scheduled Pay`: Select the typical pay schedule for the new "
+"structure type using the drop-down menu. This indicates how often this "
 "specific type of structure is paid out."
 msgstr ""
-":guilabel:`Pagamento Programado Padrão`: Selecione o cronograma de pagamento "
-"típico para o novo tipo de estrutura no menu suspenso. Isso indica com que "
-"frequência este tipo específico de estrutura é pago."
 
-#: ../../content/applications/hr/payroll/salaries.rst:80
+#: ../../content/applications/hr/payroll/salaries.rst:83
 msgid ""
-":guilabel:`Default Working Hours`: Select the default working hours for the "
-"new structure type from the drop-down menu. All available working hours for "
-"the currently selected company appear in the drop-down menu. The default "
-"working hours are the :guilabel:`Standard 40 hours/week` option. If the "
-"needed working hours do not appear in the list, a :ref:`new set of default "
-"working hours can be created <payroll/new-default-working-hours>`."
+":guilabel:`Working Hours`: Select the working hours for the new structure "
+"type using the drop-down menu. All available working hours for the currently "
+"selected company appear in the drop-down menu. The default working hours are "
+"the :guilabel:`Standard 40 hours/week` option. If the needed working hours "
+"do not appear in the list, a :ref:`new set of working hours can be created "
+"<payroll/salaries/new-working-hours>`."
 msgstr ""
-":guilabel:`Horário de Trabalho Padrão`: Selecione o horário de trabalho "
-"padrão para o novo tipo de estrutura no menu suspenso. Todos os horários de "
-"trabalho disponíveis para a empresa atualmente selecionada aparecem no menu "
-"suspenso. O horário de trabalho padrão é a opção :guilabel:`Padrão 40 horas/"
-"semana`. Se o horário de trabalho necessário não aparecer na lista, :ref:`um "
-"novo conjunto de horários de trabalho padrão pode ser criado <payroll/new-"
-"default-working-hours>`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:85
+#: ../../content/applications/hr/payroll/salaries.rst:88
 msgid ""
-":guilabel:`Regular Pay Structure`: Type in the name for the regular pay "
-"structure. It is used as the default option when generating payslips."
+":guilabel:`Pay Structure`: Select the pay structure that falls within the "
+"new structure type using the drop-down menu. This is used as the default "
+"option when generating payslips."
 msgstr ""
-":guilabel:`Estrutura de Pagamento Regular`: Digite o nome para a estrutura "
-"de pagamento regular. Ela é usada como opção padrão ao gerar holerites."
 
-#: ../../content/applications/hr/payroll/salaries.rst:87
+#: ../../content/applications/hr/payroll/salaries.rst:90
 msgid ""
-":guilabel:`Default Work Entry Type`: Select the default work entry type "
-"which is used to create all work entries for the employee."
+":guilabel:`Work Entry Type`: Select the work entry type used to create all "
+"work entries for the employee."
 msgstr ""
-":guilabel:`Tipo de Entrada de Trabalho Padrão`: Selecione o tipo de entrada "
-"de trabalho padrão que é usado para criar todas as entradas de trabalho do "
-"funcionário."
 
 #: ../../content/applications/hr/payroll/salaries.rst:None
 msgid "New structure type form to fill out when creating a new structure type."
@@ -44488,165 +44258,146 @@ msgstr ""
 "Formulário de novo tipo de estrutura a ser preenchido ao criar um novo tipo "
 "de estrutura."
 
-#: ../../content/applications/hr/payroll/salaries.rst:96
-msgid "New default working hours"
-msgstr "Novo horário de trabalho padrão"
-
-#: ../../content/applications/hr/payroll/salaries.rst:98
-msgid ""
-"To make new default working hours, type the name for the new working hours "
-"in the :guilabel:`Default Working Hours` field on the new structure type "
-"form. Click :guilabel:`Create and edit`. A default working hours form pops "
-"up. The default working hours form has two sections: a general information "
-"section, and a tab listing all the individual working hours by day and time. "
-"When the form is completed, click :guilabel:`Save & Close`."
+#: ../../content/applications/hr/payroll/salaries.rst:99
+msgid "New working hours"
 msgstr ""
-"Para criar novos horários de trabalho padrão, digite o nome para os novos "
-"horários de trabalho no campo :guilabel:`Horário de Trabalho Padrão` no "
-"formulário do novo tipo de estrutura. Clique em :guilabel:`Criar e editar`. "
-"Um formulário de horários de trabalho padrão será exibido. O formulário de "
-"horários de trabalho padrão possui duas seções: uma seção de informações "
-"gerais e uma aba listando todos os horários de trabalho individuais por dia "
-"e horário. Quando o formulário estiver completo, clique em :guilabel:`Salvar "
-"e Fechar`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:104
+#: ../../content/applications/hr/payroll/salaries.rst:101
 msgid ""
-":guilabel:`Name`: Type in the name for the new default working hours. This "
-"should be descriptive and clear to understand, such as `Standard 20 Hours/"
-"Week`."
+"To make new working hours, type the name for the new working hours in "
+"the :guilabel:`Working Hours` field on the new structure type form, then "
+"click :guilabel:`Create and edit`. A *Create Working Hours* pop-up window "
+"loads. The form has two sections: a general information section, and a "
+"*Working Hours* tab listing all the individual working hours by day and "
+"time. When the form is completed, click :guilabel:`Save`."
 msgstr ""
-":guilabel:`Nome`: Digite o nome para os novos horários de trabalho padrão. "
-"Este deve ser descritivo e claro para entender, como `Padrão 20 Horas/"
-"Semana`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:106
+#: ../../content/applications/hr/payroll/salaries.rst:107
 msgid ""
-":guilabel:`Flexible Hours`: Check the checkbox to let employees adjust their "
-"start and end times while maintaining the same total daily hours."
+":guilabel:`Name`: Type in the name for the new working hours. This should be "
+"descriptive and clear to understand, such as `Standard 20 Hours/Week`."
 msgstr ""
-":guilabel:`Horas Flexíveis`: Marque a caixa de seleção para permitir que os "
-"funcionários ajustem seus horários de início e término mantendo o mesmo "
-"total de horas diárias."
 
-#: ../../content/applications/hr/payroll/salaries.rst:108
+#: ../../content/applications/hr/payroll/salaries.rst:109
 msgid ""
-":guilabel:`Company Full Time`: Enter the number of hours per week an "
-"employee needs to work to be considered a full-time employee. Typically, "
-"this is approximately 40 hours, and this number affects what types of "
-"benefits an employee can receive, based on their employment status (full-"
-"time vs part-time)."
+":guilabel:`Schedule Type`: Select whether the hours are :guilabel:`Flexible` "
+"or :guilabel:`Fully Fixed` by clicking the corresponding radio button. "
+"Selecting :guilabel:`Flexible` hides the *Working Hours* tab and some other "
+"fields in the general information section."
 msgstr ""
-":guilabel:`Tempo Integral da Empresa`: Digite o número de horas por semana "
-"que um funcionário precisa trabalhar para ser considerado um funcionário em "
-"tempo integral. Normalmente, isso é aproximadamente 40 horas, e esse número "
-"afeta que tipos de benefícios um funcionário pode receber, com base em seu "
-"status de emprego (tempo integral vs meio período)."
 
 #: ../../content/applications/hr/payroll/salaries.rst:112
 msgid ""
-":guilabel:`Average Hour Per Day`: Auto-populated based on the working hours "
-"in the :guilabel:`Working Hours` tab. This entry affects resource planning "
-"by determining how many resources can be used per workday."
+":guilabel:`Define Amount of Hours per day`: Enable this option to base the "
+"schedule on a set amount of expected hours by day, instead of set start and "
+"end times for each day. When this option is modified, a *Confirmation* pop-"
+"up window appears. Click :guilabel:`Confirm` on the pop-up to make the "
+"change."
 msgstr ""
-":guilabel:`Média de Horas Por Dia`: Preenchido automaticamente com base nas "
-"horas de trabalho na aba :guilabel:`Horário de Trabalho`. Esta entrada afeta "
-"o planejamento de recursos ao determinar quantos recursos podem ser usados "
-"por dia útil."
 
-#: ../../content/applications/hr/payroll/salaries.rst:115
-#: ../../content/applications/hr/payroll/working_schedules.rst:55
+#: ../../content/applications/hr/payroll/salaries.rst:116
+msgid ""
+":guilabel:`Full Time Equivalent`: The number of hours per week an employee "
+"needs to work to be considered a full-time employee. Typically, this is "
+"approximately 40 hours, and this number affects what types of benefits an "
+"employee can receive, based on their employment status (full-time vs. part-"
+"time). This field is **not** able to be modified."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:120
 msgid ""
 ":guilabel:`Work Time Rate`: This percentage is auto-generated based on the "
-"entry for the :guilabel:`Company Full Time` and the working hours configured "
-"in the :guilabel:`Working Hours` tab. This number should be between `0.00%` "
-"and `100%`, so if the percentage is above `100%`, it is an indication that "
-"the working times and/or :guilabel:`Company Full Time` hours need adjustment."
+"configured times in the *Working Hours* tab, compared to the :guilabel:`Full "
+"Time Equivalent`. This number should be between `0.00%` and `100%`, so if "
+"the percentage is above `100%`, it is an indication that the working times "
+"may need adjustment."
 msgstr ""
-":guilabel:`Taxa de Tempo de Trabalho`: Esta porcentagem é gerada "
-"automaticamente com base na entrada para :guilabel:`Tempo Integral da "
-"Empresa` e nas horas de trabalho configuradas na aba :guilabel:`Horário de "
-"Trabalho`. Este número deve estar entre `0,00%` e `100%`, portanto, se a "
-"porcentagem estiver acima de `100%`, é uma indicação de que os horários de "
-"trabalho e/ou as horas de :guilabel:`Tempo Integral da Empresa` precisam de "
-"ajuste."
 
-#: ../../content/applications/hr/payroll/salaries.rst:119
+#: ../../content/applications/hr/payroll/salaries.rst:124
 msgid ""
-":guilabel:`Company`: Select the company that can use these new default "
-"working hours from the drop-down menu. Leave this field blank if the hours "
-"are available for all companies."
+":guilabel:`Company`: Select the company that can use the new default working "
+"hours using the drop-down menu. Leave this field blank if the hours are "
+"available for all companies."
 msgstr ""
-":guilabel:`Empresa`: Selecione a empresa que pode usar esses novos horários "
-"de trabalho padrão no menu suspenso. Deixe este campo em branco se as horas "
-"estiverem disponíveis para todas as empresas."
 
-#: ../../content/applications/hr/payroll/salaries.rst:121
-#: ../../content/applications/hr/payroll/working_schedules.rst:61
+#: ../../content/applications/hr/payroll/salaries.rst:126
 msgid ""
-":guilabel:`Timezone`: Select the time zone to be used for the new default "
-"working hours from the drop-down menu."
+":guilabel:`Timezone`: Select the time zone to be used for the new working "
+"hours using the drop-down menu."
 msgstr ""
-":guilabel:`Fuso Horário`: Selecione o fuso horário a ser usado para os novos "
-"horários de trabalho padrão no menu suspenso."
 
-#: ../../content/applications/hr/payroll/salaries.rst:123
+#: ../../content/applications/hr/payroll/salaries.rst:128
 msgid ""
-":guilabel:`Working Hours` Tab: This tab is where each day's specific working "
-"hours are listed. When a new default working hour form is created, "
-"the :guilabel:`Working Hours` tab is pre-populated with a default 40-hour "
-"week, with each day divided into three timed sections."
+":guilabel:`2 Week's Calendar`: Enable this checkbox to switch from a one-"
+"week calendar to a two-week calendar. When this option is modified, a "
+"*Confirmation* pop-up window appears. Click :guilabel:`Switch` on the pop-up "
+"to make the change. When enabled, the presented tabs change from a single "
+"*Working Hours* tab to two tabs: *Week 1 Working Hours* and *Week 2 Working "
+"Hours*."
 msgstr ""
-"Aba :guilabel:`Horário de Trabalho`: Esta aba é onde os horários de trabalho "
-"específicos de cada dia são listados. Quando um novo formulário de horário "
-"de trabalho padrão é criado, a aba :guilabel:`Horário de Trabalho` é pré-"
-"preenchida com uma semana padrão de 40 horas, com cada dia dividido em três "
-"seções cronometradas."
-
-#: ../../content/applications/hr/payroll/salaries.rst:127
-msgid ""
-"Each day includes morning (8:00–12:00), lunch (12:00–13:00), and afternoon "
-"(13:00–17:00) periods, configured using the 24-hour time format."
-msgstr ""
-"Cada dia inclui períodos de manhã (8:00–12:00), almoço (12:00–13:00) e tarde "
-"(13:00–17:00), configurados usando o formato de 24 horas."
-
-#: ../../content/applications/hr/payroll/salaries.rst:130
-msgid ""
-"To adjust any of these hours, click the field and modify the time using the "
-"drop-down menus, or type the desired time directly."
-msgstr ""
-"Para ajustar qualquer um desses horários, clique no campo e modifique o "
-"horário usando os menus suspensos ou digite o horário desejado diretamente."
 
 #: ../../content/applications/hr/payroll/salaries.rst:134
+msgid ""
+"Switching the calendar between either method removes **all** current work "
+"entries."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:136
+msgid ""
+"*Working Hours* tab: This tab is where each day's specific working hours are "
+"listed, including breaks. When a new working schedule is created, the "
+"*Working Hours* tab is pre-populated with a default 40-hour week, with each "
+"day divided into three timed sections."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:140
+msgid ""
+"Each day includes a morning shift (8:00-12:00), a lunch break (12:00-13:00), "
+"and an afternoon shift (13:00-17:00), configured using a 24-hour time format."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:143
+msgid ""
+"The average daily working hours are automatically calculated based on the "
+"schedule and appear in the :guilabel:`Avg` field, along with "
+"the :guilabel:`Total` hours for the week."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:146
+msgid ""
+"To adjust any of these entries, click the desired field and modify the "
+"information using the drop-down menus or type the information in directly."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:149
+msgid ""
+"Ensure the :guilabel:`Work Entry Type` field is configured for each line. "
+"This ensures the **Payroll** app properly calculates all work entries."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:153
 msgid ""
 "Working hours are company-specific, and cannot be shared between companies."
 msgstr ""
 "Os horários de trabalho são específicos da empresa e não podem ser "
 "compartilhados entre empresas."
 
-#: ../../content/applications/hr/payroll/salaries.rst:137
-#: ../../content/applications/hr/payroll/working_schedules.rst:85
+#: ../../content/applications/hr/payroll/salaries.rst:156
 msgid ""
-"If the working hours are not consistent each week, and the hours are on a bi-"
-"weekly schedule instead, click the :guilabel:`Switch to 2 week calendar` "
-"button at the top of the new default working hours form. This changes "
-"the :guilabel:`Working Hours` tab to display two weeks of working times that "
-"can be adjusted."
+"If the :guilabel:`2 Week's Calendar` option is enabled, ensure the various "
+"working hours for both tabs (*Week 1 Working Hours* and *Week 2 Working "
+"Hours*) are correctly configured."
 msgstr ""
-"Se o horário de trabalho não for consistente em todas as semanas e, em vez "
-"disso, o horário seguir um cronograma quinzenal, clique no "
-"botão :guilabel:`Mudar para o calendário de 2 semanas` na parte superior do "
-"novo formulário padrão de horas de trabalho. Isso altera a "
-"aba :guilabel:`Horário de trabalho padrão` para exibir duas semanas de "
-"horários de trabalho que podem ser ajustados."
 
-#: ../../content/applications/hr/payroll/salaries.rst:145
+#: ../../content/applications/hr/payroll/salaries.rst:None
+msgid "A new working schedule for interns that work a fifteen-hour week."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:165
 msgid "Structures"
 msgstr "Estruturas"
 
-#: ../../content/applications/hr/payroll/salaries.rst:147
+#: ../../content/applications/hr/payroll/salaries.rst:167
 msgid ""
 "*Salary structures* are the different situations in which an employee could "
 "be paid within a specific *structure*, and are specifically defined by "
@@ -44656,7 +44407,7 @@ msgstr ""
 "pode ser pago dentro de uma *estrutura* específica e são definidas "
 "especificamente por várias regras."
 
-#: ../../content/applications/hr/payroll/salaries.rst:150
+#: ../../content/applications/hr/payroll/salaries.rst:170
 msgid ""
 "The number of structures a company needs for each structure type depends on "
 "how many different ways employees are paid, and how their pay is calculated. "
@@ -44666,7 +44417,7 @@ msgstr ""
 "depende de quantas maneiras diferentes os funcionários são pagos e como seu "
 "pagamento é calculado. Um exemplo comum de estrutura adicional é um `Bônus`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:154
+#: ../../content/applications/hr/payroll/salaries.rst:174
 msgid ""
 "To view all the various structures for each structure type, go "
 "to :menuselection:`Payroll app --> Configuration --> Structures`."
@@ -44675,21 +44426,22 @@ msgstr ""
 "acesse :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
 "Estruturas`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:157
+#: ../../content/applications/hr/payroll/salaries.rst:177
 msgid ""
-"Each :ref:`structure type <payroll/structure-types>` lists the various "
-"structures associated with it. Each structure contains a set of rules that "
-"define it."
+"Each :ref:`structure type <payroll/salaries/structure-types>` lists the "
+"various structures associated with it. Each structure contains a set of "
+"rules that define it."
 msgstr ""
-"Cada :ref:`tipo de estrutura <payroll/structure-types>` lista as diversas "
-"estruturas associadas a ele. Cada estrutura contém um conjunto de regras que "
-"a definem."
 
-#: ../../content/applications/hr/payroll/salaries.rst:None
-msgid "All available salary structures."
-msgstr "Todas as estruturas salariais disponíveis."
+#: ../../content/applications/hr/payroll/salaries.rst:180
+msgid ""
+"Odoo comes with two salary structures preconfigured: :guilabel:`Regular "
+"Pay`, housed within the :guilabel:`Employee` structure type, "
+"and :guilabel:`Worker Pay`, housed within the :guilabel:`Worker` salary "
+"structure type."
+msgstr ""
 
-#: ../../content/applications/hr/payroll/salaries.rst:163
+#: ../../content/applications/hr/payroll/salaries.rst:184
 msgid ""
 "Click on a structure to view its :guilabel:`Salary Rules`. These rules "
 "define how the payslip will be computed for the employee."
@@ -44697,7 +44449,7 @@ msgstr ""
 "Clique em uma estrutura para visualizar suas :guilabel:`Regras Salariais`. "
 "Essas regras definem como o holerite será calculado para o funcionário."
 
-#: ../../content/applications/hr/payroll/salaries.rst:167
+#: ../../content/applications/hr/payroll/salaries.rst:188
 msgid ""
 "After installing a :doc:`payroll localization <payroll_localizations>`, "
 "relevant structures are installed and appear in this list."
@@ -44714,7 +44466,7 @@ msgstr ""
 "Detalhes da estrutura salarial para pagamento regular, listando todas as "
 "regras salariais específicas."
 
-#: ../../content/applications/hr/payroll/salaries.rst:178
+#: ../../content/applications/hr/payroll/salaries.rst:199
 msgid ""
 "Each *structure* has a set of salary *rules* used to compute the various "
 "amounts considered in the pay. These rules are configured by the "
@@ -44724,38 +44476,31 @@ msgstr ""
 "calcular os diversos valores considerados no pagamento. Essas regras são "
 "configuradas pela localização e afetam o cálculo dos salários."
 
-#: ../../content/applications/hr/payroll/salaries.rst:182
+#: ../../content/applications/hr/payroll/salaries.rst:203
 msgid ""
 "Modification or creation of rules should **only** be done when necessary."
 msgstr ""
 "A modificação ou criação de regras deve ser feita **somente** quando "
 "necessário."
 
-#: ../../content/applications/hr/payroll/salaries.rst:184
+#: ../../content/applications/hr/payroll/salaries.rst:205
 msgid ""
 "To view all the rules, go to :menuselection:`Payroll app --> Configuration --"
-"> Rules`. Click on a structure (such as :guilabel:`Regular Pay`) to view all "
+"> Rules`. Click on a structure, such as :guilabel:`Regular Pay`, to view all "
 "the rules."
 msgstr ""
-"Para visualizar todas as regras, acesse :menuselection:`aplicativo Folha de "
-"Pagamento --> Configuração --> Regras`. Clique em uma estrutura "
-"(como :guilabel:`Pagamento Regular`) para visualizar todas as regras."
 
-#: ../../content/applications/hr/payroll/salaries.rst:188
+#: ../../content/applications/hr/payroll/salaries.rst:209
 msgid "Add a new rule"
 msgstr "Adicionar uma nova regra"
 
-#: ../../content/applications/hr/payroll/salaries.rst:190
+#: ../../content/applications/hr/payroll/salaries.rst:211
 msgid ""
-"To make a new rule, click :guilabel:`New` and a blank :guilabel:`Salary "
-"Rules` form loads. Enter the following information in the top half of the "
-"form:"
+"To make a new rule, click :guilabel:`New` and a blank *Salary Rules* form "
+"loads. Enter the following information in the top half of the form:"
 msgstr ""
-"Para criar uma nova regra, clique em :guilabel:`Novo` e um "
-"formulário :guilabel:`Regras Salariais` em branco será carregado. Insira as "
-"seguintes informações na metade superior do formulário:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:193
+#: ../../content/applications/hr/payroll/salaries.rst:214
 msgid ""
 ":guilabel:`Rule Name`: Enter a name for the rule. This is the name displayed "
 "in the payslip."
@@ -44763,7 +44508,7 @@ msgstr ""
 ":guilabel:`Nome da Regra`: Insira um nome para a regra. Este é o nome "
 "exibido no holerite."
 
-#: ../../content/applications/hr/payroll/salaries.rst:194
+#: ../../content/applications/hr/payroll/salaries.rst:215
 msgid ""
 ":guilabel:`Code`: Enter a code to be used for the new rule. This is case "
 "sensitive and is used as the *rule ID*. This field is **required**."
@@ -44772,7 +44517,7 @@ msgstr ""
 "Diferencia maiúsculas de minúsculas e é usado como o *ID da regra*. Este "
 "campo é **obrigatório**."
 
-#: ../../content/applications/hr/payroll/salaries.rst:196
+#: ../../content/applications/hr/payroll/salaries.rst:217
 msgid ""
 ":guilabel:`Category`: Using the drop-down menu, select the category the rule "
 "applies to, or enter a new category. The category is used to group rules and "
@@ -44782,7 +44527,7 @@ msgstr ""
 "a regra se aplica ou insira uma nova categoria. A categoria é usada para "
 "agrupar regras e acessar sua soma total."
 
-#: ../../content/applications/hr/payroll/salaries.rst:198
+#: ../../content/applications/hr/payroll/salaries.rst:219
 msgid ""
 ":guilabel:`Salary Structure`: Using the drop-down menu, select the salary "
 "structure the rule applies to, or enter a new one. This field is "
@@ -44792,7 +44537,7 @@ msgstr ""
 "estrutura salarial à qual a regra se aplica ou insira uma nova. Este campo é "
 "**obrigatório**."
 
-#: ../../content/applications/hr/payroll/salaries.rst:200
+#: ../../content/applications/hr/payroll/salaries.rst:221
 msgid ""
 ":guilabel:`Sequence`: Enter a number indicating *when* the rule is "
 "calculated, in the sequence of all other rules. Rules are processed one "
@@ -44807,39 +44552,33 @@ msgstr ""
 "usados por regras com um número de sequência maior. Este campo é "
 "**obrigatório**."
 
-#: ../../content/applications/hr/payroll/salaries.rst:204
+#: ../../content/applications/hr/payroll/salaries.rst:225
 msgid ""
-":guilabel:`Appears on Payslip`: Check the checkbox to have the rule visible "
-"on the employee payslip PDF."
+":guilabel:`Appears on Payslip`: Enable this checkbox to have the rule "
+"visible on the employee payslip PDF."
 msgstr ""
-":guilabel:`Aparece no Holerite`: Marque a caixa de seleção para ter a regra "
-"visível no PDF do holerite do funcionário."
 
-#: ../../content/applications/hr/payroll/salaries.rst:206
+#: ../../content/applications/hr/payroll/salaries.rst:227
 msgid ""
-":guilabel:`Contributes to Employer Cost`: Check the checkbox to include the "
-"rule when computing the *employer cost* of a payslip."
+":guilabel:`Contributes to Employer Cost`: Enable this checkbox to include "
+"the rule when computing the *employer cost* of a payslip."
 msgstr ""
-":guilabel:`Contribui para o Custo do Empregador`: Marque a caixa de seleção "
-"para incluir a regra ao calcular o *custo do empregador* de um holerite."
 
-#: ../../content/applications/hr/payroll/salaries.rst:210
+#: ../../content/applications/hr/payroll/salaries.rst:231
 msgid "General tab"
 msgstr "Aba Geral"
 
-#: ../../content/applications/hr/payroll/salaries.rst:212
+#: ../../content/applications/hr/payroll/salaries.rst:233
 msgid ""
-"Fill out the following sections of the :guilabel:`General` tab. These "
-"configurations determine *when* and *how* the rule is calculated."
+"Fill out the following sections of the *General* tab. These configurations "
+"determine *when* and *how* the rule is calculated."
 msgstr ""
-"Preencha as seguintes seções da aba :guilabel:`Geral`. Essas configurações "
-"determinam *quando* e *como* a regra é calculada."
 
-#: ../../content/applications/hr/payroll/salaries.rst:216
+#: ../../content/applications/hr/payroll/salaries.rst:237
 msgid "Conditions"
 msgstr "Condições"
 
-#: ../../content/applications/hr/payroll/salaries.rst:218
+#: ../../content/applications/hr/payroll/salaries.rst:239
 msgid ""
 ":guilabel:`Condition Based on`: Using the drop-down menu, select if the rule "
 "is calculated and displayed as a line in the payslip form view. Choose from "
@@ -44849,7 +44588,7 @@ msgstr ""
 "regra é calculada e exibida como uma linha na visualização do formulário de "
 "holerite. Escolha uma das seguintes opções:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:221
+#: ../../content/applications/hr/payroll/salaries.rst:242
 msgid ""
 ":guilabel:`Always True`: The rule is always calculated. No other "
 "configurations are needed for this section."
@@ -44857,7 +44596,7 @@ msgstr ""
 ":guilabel:`Sempre Verdadeiro`: A regra é sempre calculada. Nenhuma outra "
 "configuração é necessária para esta seção."
 
-#: ../../content/applications/hr/payroll/salaries.rst:223
+#: ../../content/applications/hr/payroll/salaries.rst:244
 msgid ""
 ":guilabel:`Salary Input`: This introduces a dynamic benefit to the "
 "structure. This appears as a field in the *Payroll* tab of the *Employee* "
@@ -44871,7 +44610,7 @@ msgstr ""
 "valor deste campo é adicionado ao valor da regra. Se selecionado, os "
 "seguintes campos adicionais aparecem e devem ser configurados:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:228
+#: ../../content/applications/hr/payroll/salaries.rst:249
 msgid ""
 ":guilabel:`Input on`: Specify where this field should appear and which "
 "object it should belong to, the :guilabel:`Employee`, "
@@ -44886,17 +44625,14 @@ msgstr ""
 "funcionário, mas pode ser sobrescrito diretamente no holerite para uma "
 "execução específica da folha de pagamento."
 
-#: ../../content/applications/hr/payroll/salaries.rst:232
+#: ../../content/applications/hr/payroll/salaries.rst:253
 msgid ""
 ":guilabel:`Section`: This groups several inputs into one expandable section "
 "on the form view. Only one option is available by "
-"default, :guilabel:`Inputs`."
+"default: :guilabel:`Inputs`."
 msgstr ""
-":guilabel:`Seção`: Agrupa vários campos em uma seção expansível na "
-"visualização do formulário. Apenas uma opção está disponível por "
-"padrão, :guilabel:`Campos`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:234
+#: ../../content/applications/hr/payroll/salaries.rst:255
 msgid ""
 ":guilabel:`Unit`: Click the corresponding radio button to determine how the "
 "benefit is displayed. The available options are:"
@@ -44904,23 +44640,23 @@ msgstr ""
 ":guilabel:`Unidade`: Clique no botão de opção correspondente para determinar "
 "como o benefício é exibido. As opções disponíveis são:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:237
+#: ../../content/applications/hr/payroll/salaries.rst:258
 msgid ":guilabel:`Monetary`: A number with currency."
 msgstr ":guilabel:`Monetário`: Um número com moeda."
 
-#: ../../content/applications/hr/payroll/salaries.rst:238
+#: ../../content/applications/hr/payroll/salaries.rst:259
 msgid ":guilabel:`Quantity`: A number."
 msgstr ":guilabel:`Quantidade`: Um número."
 
-#: ../../content/applications/hr/payroll/salaries.rst:239
+#: ../../content/applications/hr/payroll/salaries.rst:260
 msgid ":guilabel:`Percentage`: A number with a % sign."
 msgstr ":guilabel:`Porcentagem`: Um número com o sinal %."
 
-#: ../../content/applications/hr/payroll/salaries.rst:240
+#: ../../content/applications/hr/payroll/salaries.rst:261
 msgid ":guilabel:`Checkbox`: Indicates boolean values."
 msgstr ":guilabel:`Caixa de seleção`: Indica valores booleanos."
 
-#: ../../content/applications/hr/payroll/salaries.rst:242
+#: ../../content/applications/hr/payroll/salaries.rst:263
 msgid ""
 ":guilabel:`Input Description`: Enter a short explanation of when the input "
 "is applicable."
@@ -44928,7 +44664,7 @@ msgstr ""
 ":guilabel:`Descrição do campo`: Insira uma breve explicação de quando o "
 "campo é aplicável."
 
-#: ../../content/applications/hr/payroll/salaries.rst:243
+#: ../../content/applications/hr/payroll/salaries.rst:264
 msgid ""
 ":guilabel:`Default Value`: Enter the default value, either a monetary "
 "amount, quantity, or percentage. This is determined by what is selected for "
@@ -44940,7 +44676,7 @@ msgstr ""
 "para :guilabel:`Unidade`. Se necessário, adicione um :guilabel:`Sufixo` no "
 "campo à direita deste valor, como `por km`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:248
+#: ../../content/applications/hr/payroll/salaries.rst:269
 msgid ""
 "If :guilabel:`Checkbox` is selected for the :guilabel:`Unit`, this field "
 "changes to :guilabel:`Selected by Default`. Click the checkbox to have the "
@@ -44950,7 +44686,7 @@ msgstr ""
 "este campo muda para :guilabel:`Selecionado por padrão`. Marque a caixa de "
 "seleção para ter a regra ativa por padrão."
 
-#: ../../content/applications/hr/payroll/salaries.rst:251
+#: ../../content/applications/hr/payroll/salaries.rst:272
 msgid ""
 ":guilabel:`Depends On`: Select another rule that has a salary input, and use "
 "its value to determine whether this rule should be hidden."
@@ -44958,7 +44694,7 @@ msgstr ""
 ":guilabel:`Depende de`: Selecione outra regra que tenha um campo salarial e "
 "use seu valor para determinar se esta regra deve ser ocultada."
 
-#: ../../content/applications/hr/payroll/salaries.rst:254
+#: ../../content/applications/hr/payroll/salaries.rst:275
 msgid ""
 ":guilabel:`Other Input`: Select this to check if a payslip line exists with "
 "the same *type*. When selected, a :guilabel:`Condition Other Input` field "
@@ -44971,7 +44707,7 @@ msgstr ""
 "selecione o tipo de campo em que a regra se baseia, "
 "como :guilabel:`Dedução`, :guilabel:`Reembolso`, etc."
 
-#: ../../content/applications/hr/payroll/salaries.rst:258
+#: ../../content/applications/hr/payroll/salaries.rst:279
 msgid ""
 ":guilabel:`Python Expression`: Select this to have the rule calculated using "
 "a Python script. The script is evaluated using the local dictionary. The "
@@ -44983,24 +44719,24 @@ msgstr ""
 "lado direito lista as :guilabel:`Variáveis disponíveis` e "
 "a :guilabel:`Saída`:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:262
-#: ../../content/applications/hr/payroll/salaries.rst:337
+#: ../../content/applications/hr/payroll/salaries.rst:283
+#: ../../content/applications/hr/payroll/salaries.rst:358
 msgid ":guilabel:`Available variables`:"
 msgstr ":guilabel:`Variáveis disponíveis`:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:264
+#: ../../content/applications/hr/payroll/salaries.rst:285
 msgid ":guilabel:`payslip`: The `hr.payslip` object."
 msgstr ":guilabel:`payslip`: O objeto `hr.payslip`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:265
+#: ../../content/applications/hr/payroll/salaries.rst:286
 msgid ":guilabel:`employee`: The `hr.employee` object."
 msgstr ":guilabel:`employee`: O objeto `hr.employee`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:266
+#: ../../content/applications/hr/payroll/salaries.rst:287
 msgid ":guilabel:`version`: The `hr.version` object."
 msgstr ":guilabel:`version`: O objeto `hr.version`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:267
+#: ../../content/applications/hr/payroll/salaries.rst:288
 msgid ""
 ":guilabel:`result_rules`: A dictionary containing the rules amounts, "
 "quantities, rates and totals (previously computed)."
@@ -45008,7 +44744,7 @@ msgstr ""
 ":guilabel:`result_rules`: Um dicionário contendo os valores, quantidades, "
 "taxas e totais das regras (calculados anteriormente)."
 
-#: ../../content/applications/hr/payroll/salaries.rst:269
+#: ../../content/applications/hr/payroll/salaries.rst:290
 msgid ""
 ":guilabel:`categories`: A dictionary containing the computed salary rule "
 "categories (the sum of the amount of all the rules belonging to that "
@@ -45018,32 +44754,32 @@ msgstr ""
 "salariais calculadas (a soma do valor de todas as regras pertencentes a essa "
 "categoria):"
 
-#: ../../content/applications/hr/payroll/salaries.rst:272
-#: ../../content/applications/hr/payroll/salaries.rst:346
+#: ../../content/applications/hr/payroll/salaries.rst:293
+#: ../../content/applications/hr/payroll/salaries.rst:367
 msgid ":guilabel:`total`: rule total"
 msgstr ":guilabel:`total`: total da regra"
 
-#: ../../content/applications/hr/payroll/salaries.rst:273
-#: ../../content/applications/hr/payroll/salaries.rst:347
+#: ../../content/applications/hr/payroll/salaries.rst:294
+#: ../../content/applications/hr/payroll/salaries.rst:368
 msgid ":guilabel:`amount`: rule amount"
 msgstr ":guilabel:`amount`: valor da regra"
 
-#: ../../content/applications/hr/payroll/salaries.rst:274
-#: ../../content/applications/hr/payroll/salaries.rst:348
+#: ../../content/applications/hr/payroll/salaries.rst:295
+#: ../../content/applications/hr/payroll/salaries.rst:369
 msgid ":guilabel:`quantity`: rule quantity"
 msgstr ":guilabel:`quantity`: quantidade da regra"
 
-#: ../../content/applications/hr/payroll/salaries.rst:275
-#: ../../content/applications/hr/payroll/salaries.rst:349
+#: ../../content/applications/hr/payroll/salaries.rst:296
+#: ../../content/applications/hr/payroll/salaries.rst:370
 msgid ":guilabel:`rate`: rule rate"
 msgstr ":guilabel:`rate`: taxa da regra"
 
-#: ../../content/applications/hr/payroll/salaries.rst:276
-#: ../../content/applications/hr/payroll/salaries.rst:350
+#: ../../content/applications/hr/payroll/salaries.rst:297
+#: ../../content/applications/hr/payroll/salaries.rst:371
 msgid ":guilabel:`ytd`: rule year to date value"
 msgstr ":guilabel:`ytd`: valor acumulado do ano da regra"
 
-#: ../../content/applications/hr/payroll/salaries.rst:278
+#: ../../content/applications/hr/payroll/salaries.rst:299
 msgid ""
 ":guilabel:`worked_days`: A dictionary containing the computed worked days, "
 "where each key is a work entry type code, and each value is a `worked_days` "
@@ -45055,8 +44791,8 @@ msgstr ""
 "cada valor é um objeto `worked_days`. Este objeto contém muitas variáveis, "
 "sendo as mais importantes:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:282
-#: ../../content/applications/hr/payroll/salaries.rst:359
+#: ../../content/applications/hr/payroll/salaries.rst:303
+#: ../../content/applications/hr/payroll/salaries.rst:380
 msgid ""
 ":guilabel:`number_of_days`: The number of days registered in the payslip "
 "duration with this work entry type."
@@ -45064,8 +44800,8 @@ msgstr ""
 ":guilabel:`number_of_days`: O número de dias registrados na duração do "
 "holerite com este tipo de entrada de trabalho."
 
-#: ../../content/applications/hr/payroll/salaries.rst:284
-#: ../../content/applications/hr/payroll/salaries.rst:361
+#: ../../content/applications/hr/payroll/salaries.rst:305
+#: ../../content/applications/hr/payroll/salaries.rst:382
 msgid ""
 ":guilabel:`number_of_hours`: The number of hours registered in the payslip "
 "duration with this work entry type."
@@ -45073,7 +44809,7 @@ msgstr ""
 ":guilabel:`number_of_hours`: O número de horas registradas na duração do "
 "holerite com este tipo de entrada de trabalho."
 
-#: ../../content/applications/hr/payroll/salaries.rst:286
+#: ../../content/applications/hr/payroll/salaries.rst:307
 msgid ""
 ":guilabel:`is_paid`: Whether or not this work entry type is added as an "
 "unpaid work entry on this payslip structure."
@@ -45081,7 +44817,7 @@ msgstr ""
 ":guilabel:`is_paid`: Se este tipo de entrada de trabalho é ou não adicionado "
 "como uma entrada de trabalho não remunerada nesta estrutura de holerite."
 
-#: ../../content/applications/hr/payroll/salaries.rst:289
+#: ../../content/applications/hr/payroll/salaries.rst:310
 msgid ""
 ":guilabel:`inputs`: A dictionary containing the computed inputs where *key* "
 "is the other input type code and *value* is the sum of the payslip input "
@@ -45091,12 +44827,12 @@ msgstr ""
 "é o outro código de tipo de entrada e *value* é a soma das linhas de entrada "
 "do holerite com o mesmo código."
 
-#: ../../content/applications/hr/payroll/salaries.rst:292
-#: ../../content/applications/hr/payroll/salaries.rst:369
+#: ../../content/applications/hr/payroll/salaries.rst:313
+#: ../../content/applications/hr/payroll/salaries.rst:390
 msgid ":guilabel:`Output`:"
 msgstr ":guilabel:`Output`:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:294
+#: ../../content/applications/hr/payroll/salaries.rst:315
 msgid ""
 ":guilabel:`result`: The boolean is *True* if the rule should be calculated, "
 "or *False* if otherwise."
@@ -45104,7 +44840,7 @@ msgstr ""
 ":guilabel:`result`: O booleano é *True* se a regra deve ser calculada, ou "
 "*False* caso contrário."
 
-#: ../../content/applications/hr/payroll/salaries.rst:297
+#: ../../content/applications/hr/payroll/salaries.rst:318
 msgid ""
 ":guilabel:`Domain`: Select this option to apply the rule *only* if it "
 "matches the configured :guilabel:`Applicability Domain`. Configure "
@@ -45116,11 +44852,11 @@ msgstr ""
 "Configure o :guilabel:`Domínio de Aplicabilidade` que aparece abaixo desta "
 "opção quando selecionada."
 
-#: ../../content/applications/hr/payroll/salaries.rst:302
+#: ../../content/applications/hr/payroll/salaries.rst:323
 msgid "Computation"
 msgstr "Calcular"
 
-#: ../../content/applications/hr/payroll/salaries.rst:304
+#: ../../content/applications/hr/payroll/salaries.rst:325
 msgid ""
 "This section determines the final value of the rule, which consists of the "
 "base amount, the quantity, and the rate. The total of the rule is `total = "
@@ -45130,7 +44866,7 @@ msgstr ""
 "quantidade e na taxa. O total da regra é `total = valor * quantidade * (taxa/"
 "100)`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:308
+#: ../../content/applications/hr/payroll/salaries.rst:329
 msgid ""
 "This field does **not** appear if the :guilabel:`Condition Based on` field "
 "is set to :guilabel:`Salary Input`."
@@ -45138,7 +44874,7 @@ msgstr ""
 "Este campo **não** aparece se o campo :guilabel:`Condition Based on` estiver "
 "definido como :guilabel:`Salary Input`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:311
+#: ../../content/applications/hr/payroll/salaries.rst:332
 msgid ""
 "Using the drop-down menu, select one of the following options for "
 "the :guilabel:`Amount Type` field:"
@@ -45146,7 +44882,7 @@ msgstr ""
 "Usando o menu suspenso, selecione uma das seguintes opções para o "
 "campo :guilabel:`Amount Type`:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:313
+#: ../../content/applications/hr/payroll/salaries.rst:334
 msgid ""
 ":guilabel:`Percentage (%)`: Defines the values for the total calculation. "
 "When selected, configure the following fields:"
@@ -45154,7 +44890,7 @@ msgstr ""
 ":guilabel:`Percentage (%)`: Define os valores para o cálculo total. Quando "
 "selecionado, configure os seguintes campos:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:316
+#: ../../content/applications/hr/payroll/salaries.rst:337
 msgid ""
 ":guilabel:`Percentage based on`: A Python expression is evaluated using the "
 "`localdict`, and its value is assigned to the rule amount."
@@ -45162,8 +44898,8 @@ msgstr ""
 ":guilabel:`Percentage based on`: Uma expressão Python é avaliada usando o "
 "`localdict`, e seu valor é atribuído ao valor da regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:318
-#: ../../content/applications/hr/payroll/salaries.rst:324
+#: ../../content/applications/hr/payroll/salaries.rst:339
+#: ../../content/applications/hr/payroll/salaries.rst:345
 msgid ""
 ":guilabel:`Quantity`: A Python expression is evaluated using the "
 "`localdict`, and its value is assigned to the rule quantity."
@@ -45171,12 +44907,12 @@ msgstr ""
 ":guilabel:`Quantity`: Uma expressão Python é avaliada usando o `localdict`, "
 "e seu valor é atribuído à quantidade da regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:320
+#: ../../content/applications/hr/payroll/salaries.rst:341
 msgid ":guilabel:`Percentage (%)`: A decimal number assigned to the rule rate."
 msgstr ""
 ":guilabel:`Percentage (%)`: Um número decimal atribuído à taxa da regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:322
+#: ../../content/applications/hr/payroll/salaries.rst:343
 msgid ""
 ":guilabel:`Fixed Amount`: The amount and quantity is defined, with a rate of "
 "100%."
@@ -45184,7 +44920,7 @@ msgstr ""
 ":guilabel:`Fixed Amount`: O valor e a quantidade são definidos, com uma taxa "
 "de 100%."
 
-#: ../../content/applications/hr/payroll/salaries.rst:326
+#: ../../content/applications/hr/payroll/salaries.rst:347
 msgid ""
 ":guilabel:`Fixed Amount`: Enter a decimal number which is assigned to the "
 "rule amount."
@@ -45192,7 +44928,7 @@ msgstr ""
 ":guilabel:`Fixed Amount`: Insira um número decimal que é atribuído ao valor "
 "da regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:328
+#: ../../content/applications/hr/payroll/salaries.rst:349
 msgid ""
 ":guilabel:`Other Input`: Select this to fetch the rule amount from the "
 "payslip input lines that have the same *other input type* with rate of "
@@ -45208,7 +44944,7 @@ msgstr ""
 "suspenso, selecione o *tipo* de entrada, "
 "como :guilabel:`Dedução`, :guilabel:`Gorjetas`, ou :guilabel:`Despesas`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:333
+#: ../../content/applications/hr/payroll/salaries.rst:354
 msgid ""
 ":guilabel:`Python Code`: This is the more complex version of "
 "the :guilabel:`Percentage (%)` option, where a whole Python script is "
@@ -45220,19 +44956,19 @@ msgstr ""
 "então avaliado usando o `localdict`. Isto inclui uma lista "
 "de :guilabel:`Variáveis disponíveis` e uma lista de :guilabel:`Saída`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:339
+#: ../../content/applications/hr/payroll/salaries.rst:360
 msgid ":guilabel:`payslip`: hr.payslip object"
 msgstr ":guilabel:`payslip`: objeto hr.payslip"
 
-#: ../../content/applications/hr/payroll/salaries.rst:340
+#: ../../content/applications/hr/payroll/salaries.rst:361
 msgid ":guilabel:`employee`: hr.employee object"
 msgstr ":guilabel:`employee`: objeto hr.employee"
 
-#: ../../content/applications/hr/payroll/salaries.rst:341
+#: ../../content/applications/hr/payroll/salaries.rst:362
 msgid ":guilabel:`version`: hr.version object"
 msgstr ":guilabel:`version`: objeto hr.version"
 
-#: ../../content/applications/hr/payroll/salaries.rst:342
+#: ../../content/applications/hr/payroll/salaries.rst:363
 msgid ""
 ":guilabel:`result_rules`: A dict containing the rules amounts, quantities, "
 "rates and totals (previously computed), where the key is the rule code, and "
@@ -45242,7 +44978,7 @@ msgstr ""
 "taxas e totais das regras (previamente computados), onde a chave é o código "
 "da regra, e o valor é um dicionário com as seguintes chaves:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:352
+#: ../../content/applications/hr/payroll/salaries.rst:373
 msgid ""
 ":guilabel:`categories`: A dict containing the computed salary rule "
 "categories (sum of amount of all rules belonging to that category) where key "
@@ -45253,7 +44989,7 @@ msgstr ""
 "àquela categoria) onde a chave é o código da categoria e o valor é a soma "
 "dos valores totais das regras."
 
-#: ../../content/applications/hr/payroll/salaries.rst:355
+#: ../../content/applications/hr/payroll/salaries.rst:376
 msgid ""
 ":guilabel:`worked_days`: A dict containing the computed worked days where "
 "*key* is the work entry type code and *value* is the `worked_days` object "
@@ -45264,7 +45000,7 @@ msgstr ""
 "é o objeto `worked_days` que contém muitas variáveis, mas as mais "
 "importantes são:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:363
+#: ../../content/applications/hr/payroll/salaries.rst:384
 msgid ""
 ":guilabel:`is_paid`: Dictates whether or not this work entry type is added "
 "as unpaid work entry on this payslip structure."
@@ -45272,29 +45008,26 @@ msgstr ""
 ":guilabel:`is_paid`: Determina se este tipo de entrada de trabalho é "
 "adicionado como entrada de trabalho não paga nesta estrutura de holerite."
 
-#: ../../content/applications/hr/payroll/salaries.rst:366
+#: ../../content/applications/hr/payroll/salaries.rst:387
 msgid ""
-":guilabel:`inputs`: A dict containing the computed inputs Where *key** is "
+":guilabel:`inputs`: A dict containing the computed inputs, Where *key* is "
 "the other input type code and *value* is the sum of the payslip input lines "
 "with the same code."
 msgstr ""
-":guilabel:`inputs`: Um dicionário contendo as entradas computadas onde "
-"*chave* é o código do tipo de outra entrada e *valor* é a soma das linhas de "
-"entrada do holerite com o mesmo código."
 
-#: ../../content/applications/hr/payroll/salaries.rst:371
+#: ../../content/applications/hr/payroll/salaries.rst:392
 msgid ":guilabel:`result`: float, base amount of the rule"
 msgstr ":guilabel:`result`: float, valor base da regra"
 
-#: ../../content/applications/hr/payroll/salaries.rst:372
+#: ../../content/applications/hr/payroll/salaries.rst:393
 msgid ":guilabel:`result_rate`: float, which defaults to 100.0 (%)"
 msgstr ":guilabel:`result_rate`: float, que padroniza para 100.0 (%)"
 
-#: ../../content/applications/hr/payroll/salaries.rst:373
+#: ../../content/applications/hr/payroll/salaries.rst:394
 msgid ":guilabel:`result_qty`: float, quantity, which defaults to 1"
 msgstr ":guilabel:`result_qty`: float, quantidade, que padroniza para 1"
 
-#: ../../content/applications/hr/payroll/salaries.rst:374
+#: ../../content/applications/hr/payroll/salaries.rst:395
 msgid ""
 ":guilabel:`result_name`: string, name of the line. This defaults to the name "
 "field of the salary rule (useful if the name depends or should depend on "
@@ -45304,11 +45037,11 @@ msgstr ""
 "de nome da regra salarial (útil se o nome depende ou deveria depender de "
 "algo computado na regra)."
 
-#: ../../content/applications/hr/payroll/salaries.rst:378
+#: ../../content/applications/hr/payroll/salaries.rst:399
 msgid "Company contribution"
 msgstr "Contribuição da empresa"
 
-#: ../../content/applications/hr/payroll/salaries.rst:380
+#: ../../content/applications/hr/payroll/salaries.rst:401
 msgid ""
 "Using the drop-down menu, select the eventual third party involved in the "
 "salary payment to the employees."
@@ -45316,11 +45049,11 @@ msgstr ""
 "Usando o menu suspenso, selecione o eventual terceiro envolvido no pagamento "
 "salarial aos funcionários."
 
-#: ../../content/applications/hr/payroll/salaries.rst:384
+#: ../../content/applications/hr/payroll/salaries.rst:405
 msgid "Display tab"
 msgstr "Aba Exibição"
 
-#: ../../content/applications/hr/payroll/salaries.rst:386
+#: ../../content/applications/hr/payroll/salaries.rst:407
 msgid ""
 "This section determines the appearance of the rule on the payslip PDF "
 "available to the employee, and defines the rule aesthetics."
@@ -45328,28 +45061,21 @@ msgstr ""
 "Esta seção determina a aparência da regra no PDF do holerite disponível ao "
 "funcionário, e define a estética da regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:389
+#: ../../content/applications/hr/payroll/salaries.rst:410
 msgid ""
 "First, select a :guilabel:`Color` for the rule using the color picker. Next, "
-"check the :guilabel:`Title` checkbox to **only** display the salary rule's "
+"enable the :guilabel:`Title` checkbox to **only** display the salary rule's "
 "*title* and *description*, and hide any numerical values."
 msgstr ""
-"Primeiro, selecione uma :guilabel:`Cor` para a regra usando o seletor de "
-"cores. Em seguida, marque a caixa de seleção :guilabel:`Título` para exibir "
-"**apenas** o *título* e a *descrição* da regra salarial, e ocultar quaisquer "
-"valores numéricos."
 
-#: ../../content/applications/hr/payroll/salaries.rst:393
+#: ../../content/applications/hr/payroll/salaries.rst:414
 msgid ""
-"Check the :guilabel:`Indented`, :guilabel:`Space "
+"Activate the :guilabel:`Indented`, :guilabel:`Space "
 "Above`, :guilabel:`Bold`, :guilabel:`Underline`, and :guilabel:`Italic` "
-"checkboxes to activate the options."
+"checkboxes to activate the respective options."
 msgstr ""
-"Marque as caixas de seleção :guilabel:`Indentado`, :guilabel:`Espaço "
-"Acima`, :guilabel:`Negrito`, :guilabel:`Sublinhado`, e :guilabel:`Itálico` "
-"para ativar as opções."
 
-#: ../../content/applications/hr/payroll/salaries.rst:396
+#: ../../content/applications/hr/payroll/salaries.rst:417
 msgid ""
 "Finally, enter a :guilabel:`Description` for the rule, which is displayed "
 "below the rule name."
@@ -45357,11 +45083,11 @@ msgstr ""
 "Por fim, insira uma :guilabel:`Descrição` para a regra, que é exibida abaixo "
 "do nome da regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:399
+#: ../../content/applications/hr/payroll/salaries.rst:420
 msgid "Accounting tab"
 msgstr "Aba Financeiro"
 
-#: ../../content/applications/hr/payroll/salaries.rst:401
+#: ../../content/applications/hr/payroll/salaries.rst:422
 msgid ""
 "This section determines how the rule affects the various accounting journals "
 "and how the Net salary is calculated for employees. Configure the following "
@@ -45371,7 +45097,7 @@ msgstr ""
 "salário líquido é calculado para os funcionários. Configure os seguintes "
 "campos nesta seção:"
 
-#: ../../content/applications/hr/payroll/salaries.rst:404
+#: ../../content/applications/hr/payroll/salaries.rst:425
 msgid ""
 ":guilabel:`Debit Account`: Using the drop-down menu, select the debit "
 "account for the rule."
@@ -45379,7 +45105,7 @@ msgstr ""
 ":guilabel:`Conta de débito`: usando o menu suspenso, selecione a conta de "
 "débito para a regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:405
+#: ../../content/applications/hr/payroll/salaries.rst:426
 msgid ""
 ":guilabel:`Credit Account`: Using the drop-down menu, select the credit "
 "account for the rule."
@@ -45387,7 +45113,7 @@ msgstr ""
 ":guilabel:`Conta de credit`: usando o menu suspenso, selecione a conta de "
 "credit para a regra."
 
-#: ../../content/applications/hr/payroll/salaries.rst:406
+#: ../../content/applications/hr/payroll/salaries.rst:427
 msgid ""
 ":guilabel:`Split on names`: Enable this option to split the accounting "
 "entries for this rule according to the payslip line name. Splitting the "
@@ -45399,7 +45125,7 @@ msgstr ""
 "lançamentos proporciona mais visibilidade para deduções e reembolsos, ou "
 "para ajustes salariais."
 
-#: ../../content/applications/hr/payroll/salaries.rst:409
+#: ../../content/applications/hr/payroll/salaries.rst:430
 msgid ""
 ":guilabel:`Excluded from Net`: Check this checkbox to exclude the rule's "
 "calculations from the net salary rule in journal entries. A specific debit "
@@ -45410,7 +45136,7 @@ msgstr ""
 "Uma conta de débito e credit específica deve ser definida para classificá-la "
 "independentemente."
 
-#: ../../content/applications/hr/payroll/salaries.rst:412
+#: ../../content/applications/hr/payroll/salaries.rst:433
 msgid ""
 ":guilabel:`Set employee on account line`: Check this checkbox to have the "
 "employee's name visible on the journal items."
@@ -45418,13 +45144,13 @@ msgstr ""
 ":guilabel:`Definir funcionário na linha da conta`: marque esta caixa de "
 "seleção para ter o nome do funcionário visível nos itens do diário."
 
-#: ../../content/applications/hr/payroll/salaries.rst:416
+#: ../../content/applications/hr/payroll/salaries.rst:437
 msgid "This tab is **only** available if the **Accounting** app is installed."
 msgstr ""
 "Esta aba está disponível **apenas** se o aplicativo **Financeiro** estiver "
 "instalado."
 
-#: ../../content/applications/hr/payroll/salaries.rst:423
+#: ../../content/applications/hr/payroll/salaries.rst:444
 msgid ""
 "Rule parameters inform Odoo how to calculate each line of a payslip. To view "
 "the configured rule parameters, navigate to :menuselection:`Payroll app --> "
@@ -45435,7 +45161,7 @@ msgstr ""
 "até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
 "Parâmetros de Regras`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:426
+#: ../../content/applications/hr/payroll/salaries.rst:447
 msgid ""
 "All rule parameters are displayed. Click on an individual rule parameter to "
 "view the details."
@@ -45443,7 +45169,7 @@ msgstr ""
 "Todos os parâmetros de regras são exibidos. Clique em um parâmetro de regra "
 "individual para visualizar os detalhes."
 
-#: ../../content/applications/hr/payroll/salaries.rst:428
+#: ../../content/applications/hr/payroll/salaries.rst:449
 msgid ""
 "Each rule parameter displays the name of the rule, the code, when the rule "
 "is active, and the parameter value."
@@ -45451,58 +45177,68 @@ msgstr ""
 "Cada parâmetro de regra exibe o nome da regra, o código, quando a regra está "
 "ativa e o valor do parâmetro."
 
-#: ../../content/applications/hr/payroll/salaries.rst:432
-msgid ""
-"The rule parameters for overtime pay inform Odoo that employees receive time "
-"and a half when working over 40 hours."
+#: ../../content/applications/hr/payroll/salaries.rst:455
+msgid "Rule categories"
 msgstr ""
-"Os parâmetros de regras para pagamento de horas extras informam ao Odoo que "
-"os funcionários recebem uma vez e meia quando trabalham mais de 40 horas."
 
-#: ../../content/applications/hr/payroll/salaries.rst:440
+#: ../../content/applications/hr/payroll/salaries.rst:457
+msgid ""
+"Every rule is associated with a rule category. To view the various "
+"categories, navigate to :menuselection:`Payroll app --> Configuration --> "
+"Rule Categories`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:460
+msgid ""
+"All rule categories appear in a list view, and display the "
+"category :guilabel:`Name`, :guilabel:`Code`, and :guilabel:`Country`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:463
+msgid ""
+"To create a new rule category, click the :guilabel:`New` button. Enter "
+"a :guilabel:`Name` and :guilabel:`Code` for the category in the "
+"corresponding fields. If the category is housed beneath a :guilabel:`Parent` "
+"category, select the parent category using the drop-down menu. If the "
+"category is country-specific, select the :guilabel:`Country` using the drop-"
+"down menu."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:471
+msgid "Salary input types"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/salaries.rst:473
 msgid ""
 "When creating payslips, it is sometimes necessary to add other entries for "
 "specific circumstances, like tips, commissions, expenses, or deductions. "
 "These other inputs can be found by navigating to :menuselection:`Payroll app "
-"--> Configuration --> Other Input Types`."
+"--> Configuration --> Salary Input Types`. All universal and localization-"
+"specific salary input types appear in the list."
 msgstr ""
-"Ao criar holerites, às vezes é necessário adicionar outras entradas para "
-"circunstâncias específicas, como gorjetas, comissões, despesas ou deduções. "
-"Essas outras entradas podem ser encontradas navegando "
-"até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
-"Outros Tipos de Entrada`."
 
 #: ../../content/applications/hr/payroll/salaries.rst:None
 msgid ""
-"A list of other input types for payroll that can be selected when creating a "
-"new entry for\n"
+"A list of salary input types for payroll that can be selected when creating "
+"a new entry for\n"
 "a payslip."
 msgstr ""
-"Lista de outros tipos de entrada na folha de pagamento, que podem ser "
-"selecionados ao criar uma nova entrada em\n"
-"um holerite."
 
-#: ../../content/applications/hr/payroll/salaries.rst:448
+#: ../../content/applications/hr/payroll/salaries.rst:482
 msgid ""
 "If a new input type is needed that does not appear on the list, click "
-"the :guilabel:`New` button to create a new input type. Enter "
+"the :guilabel:`New` button to create a new salary input type. Enter "
 "the :guilabel:`Description`, the :guilabel:`Code`, and select which "
 "structure it applies to in the :guilabel:`Availability in Structure` field."
 msgstr ""
-"Se um novo tipo de entrada for necessário e não aparecer na lista, clique no "
-"botão :guilabel:`Novo` para criar um novo tipo de entrada. Insira "
-"a :guilabel:`Descrição`, o :guilabel:`Código` e selecione a qual estrutura "
-"se aplica no campo :guilabel:`Disponibilidade na Estrutura`."
 
-#: ../../content/applications/hr/payroll/salaries.rst:452
+#: ../../content/applications/hr/payroll/salaries.rst:486
 msgid ""
-"Check the :guilabel:`Available in attachments` checkbox if the input should "
-"be a salary attachment."
+"Enable the :guilabel:`Available in adjustments` checkbox if the input should "
+"be a salary adjustment."
 msgstr ""
-"Marque a caixa de seleção :guilabel:`Disponível em anexos` se a entrada deve "
-"ser um anexo salarial."
 
-#: ../../content/applications/hr/payroll/salaries.rst:455
+#: ../../content/applications/hr/payroll/salaries.rst:489
 msgid ""
 "The :guilabel:`Code` is used in the salary rules to compute payslips. If "
 "the :guilabel:`Availability in Structure` field is left blank, it indicates "
@@ -45513,10 +45249,6 @@ msgstr ""
 "holerites. O campo :guilabel:`Disponibilidade na estrutura` em branco indica "
 "que o novo tipo de entrada é disponibilizado para todos os holerites e não é "
 "exclusivo de uma estrutura específica."
-
-#: ../../content/applications/hr/payroll/salaries.rst:None
-msgid "A new Input Type form filled in."
-msgstr "Novo formulário de Tipo de entrada preenchido."
 
 #: ../../content/applications/hr/payroll/salary_attachments.rst:3
 msgid "Salary adjustments"
@@ -46158,16 +45890,11 @@ msgstr ""
 #: ../../content/applications/hr/payroll/work_entries.rst:9
 msgid ""
 "The **Payroll** app automatically creates work entries based on the "
-"employee's :ref:`salary structure type <payroll/structure-types>`, and from "
-"the **Planning**, **Attendances**, and **Time Off** applications. When "
-"needed, work entries can also be :ref:`created manually <payroll/new-work-"
-"entry>`."
+"employee's :ref:`salary structure type <payroll/salaries/structure-types>`, "
+"and from the **Planning**, **Attendances**, and **Time Off** applications. "
+"When needed, work entries can also be :ref:`created manually <payroll/new-"
+"work-entry>`."
 msgstr ""
-"O aplicativo **Folha de Pagamento** cria automaticamente entradas de "
-"trabalho com base no :ref:`tipo de estrutura salarial <payroll/structure-"
-"types>` do funcionário e dos aplicativos **Planejamento**, **Controle de "
-"Presença** e **Folgas**. Quando necessário, as entradas de trabalho também "
-"podem ser :ref:`criadas manualmente <payroll/new-work-entry>`."
 
 #: ../../content/applications/hr/payroll/work_entries.rst:14
 msgid ""
@@ -47232,55 +46959,12 @@ msgstr ""
 "garantir que todos os horários de trabalho dos funcionários estejam "
 "configurados no banco de dados."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:11
-msgid ""
-"In Odoo's **Payroll** app, *working schedules* are referred to as *working "
-"hours* in :ref:`salary structures <payroll/structure-types>`."
-msgstr ""
-"No aplicativo **Folha de Pagamento** do Odoo, os *horários de trabalho* são "
-"chamados de *horas de trabalho* nas :ref:`estruturas salariais <payroll/"
-"structure-types>`."
-
-#: ../../content/applications/hr/payroll/working_schedules.rst:14
+#: ../../content/applications/hr/payroll/working_schedules.rst:10
 msgid ""
 "To view the currently configured working schedules, navigate "
 "to :menuselection:`Payroll app --> Configuration --> Working Schedules`, and "
-"the :guilabel:`Working Schedules` dashboard loads."
+"the *Working Schedules* dashboard loads."
 msgstr ""
-"Para visualizar os horários de trabalho atualmente configurados, navegue "
-"até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
-"Horários de Trabalho`, e o painel :guilabel:`Horários de Trabalho` será "
-"carregado."
-
-#: ../../content/applications/hr/payroll/working_schedules.rst:17
-msgid ""
-"Working schedules are company-specific. In a multi-company database, each "
-"company **must** identify each type of working schedule they use. If the "
-"database is created for only one company, the :guilabel:`Company` column is "
-"not available."
-msgstr ""
-"Os horários de trabalho são específicos da empresa. Em um banco de dados "
-"multiempresa, cada empresa **deve** identificar cada tipo de horário de "
-"trabalho que usa. Se o banco de dados for criado para apenas uma empresa, a "
-"coluna :guilabel:`Empresa` não estará disponível."
-
-#: ../../content/applications/hr/payroll/working_schedules.rst:22
-msgid ""
-"An Odoo database containing multiple companies that use a standard 40-hour "
-"work week needs to have a separate working schedule entry for each company "
-"that uses the 40-hour standard work week."
-msgstr ""
-"Uma base de dados Odoo que contém várias empresas que usam uma semana de "
-"trabalho padrão de 40 horas precisa ter um registro de horário de trabalho "
-"independente para cada empresa."
-
-#: ../../content/applications/hr/payroll/working_schedules.rst:25
-msgid ""
-"A database with five companies that all use a standard 40-hour work week "
-"needs to have five separate 40-hour working schedules configured."
-msgstr ""
-"Uma base de dados com cinco empresas que usam uma semana de trabalho padrão "
-"de 40 horas precisa ter cinco horários de trabalho de 40 horas configurados."
 
 #: ../../content/applications/hr/payroll/working_schedules.rst:None
 msgid ""
@@ -47290,74 +46974,69 @@ msgstr ""
 "Todas os registros de trabalho disponíveis para uso estão atualmente "
 "configuradas na base de dados da empresa."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:34
+#: ../../content/applications/hr/payroll/working_schedules.rst:17
+msgid ""
+"In Odoo's **Payroll** app, *working schedules* are referred to as *working "
+"hours* in :ref:`salary structures <payroll/salaries/structure-types>`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/working_schedules.rst:23
 msgid "New working schedule"
 msgstr "Novo horário de trabalho"
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:36
+#: ../../content/applications/hr/payroll/working_schedules.rst:25
 msgid ""
 "To create a new working schedule, navigate to :menuselection:`Payroll app --"
-"> Configuration --> Working Schedules`, and click :guilabel:`New`. "
-"The :guilabel:`Working Schedules` form has two sections, a general "
-"information section and a :guilabel:`Working Hours` tab listing out all the "
-"individual working hours by day and time."
+"> Configuration --> Working Schedules`, click :guilabel:`New`, and a blank "
+"*Working Schedules* form loads. The form has two sections, a general "
+"information section and a *Working Hours* tab listing out all the individual "
+"working hours by day and time."
 msgstr ""
-"Para criar um novo horário de trabalho, navegue "
-"até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
-"Horários de Trabalho` e clique em :guilabel:`Novo`. O "
-"formulário :guilabel:`Horários de Trabalho` tem duas seções, uma seção de "
-"informações gerais e uma aba :guilabel:`Horas de Trabalho` listando todas as "
-"horas de trabalho individuais por dia e hora."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:41
+#: ../../content/applications/hr/payroll/working_schedules.rst:30
 msgid "Fill out the following information on the top-half of the form:"
 msgstr "Preencha as seguintes informações na metade superior do formulário:"
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:43
+#: ../../content/applications/hr/payroll/working_schedules.rst:32
 msgid ""
 ":guilabel:`Name`: Type in the name for the new default working schedule. "
 "This should be descriptive and clear to understand, such as `Standard 20 "
-"Hours/Week`."
+"Hours/Week`. The placeholder name `Working Hours of (Company)` populates "
+"this field by default."
 msgstr ""
-":guilabel:`Nome`: Digite o nome para o novo horário de trabalho padrão. Ele "
-"deve ser descritivo e claro para entender, como `Padrão 20 Horas/Semana`."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:45
+#: ../../content/applications/hr/payroll/working_schedules.rst:35
 msgid ""
-":guilabel:`Flexible Hours`: Tick this checkbox if employees can work "
-"different hours from the working schedule."
+":guilabel:`Schedule Type`: Click the radio button next "
+"to :guilabel:`Flexible` indicating a flexible schedule, or :guilabel:`Fully "
+"Fixed` for a set schedule with specific working hours. "
+"If :guilabel:`Flexible` is selected, the *Working Hours* tab is hidden."
 msgstr ""
-":guilabel:`Horas Flexíveis`: Marque esta caixa de seleção se os funcionários "
-"puderem trabalhar horas diferentes do horário de trabalho."
+
+#: ../../content/applications/hr/payroll/working_schedules.rst:38
+msgid ""
+":guilabel:`Define Amount of Hours per day`: Enable this option to have "
+"specific start and end working times."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/working_schedules.rst:40
+msgid ""
+":guilabel:`Full Time Equivalent`: The amount of hours an employee must work "
+"each week to be considered a full time employee. This field **cannot** be "
+"modified, and is determined by the country the company is located in."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/working_schedules.rst:43
+msgid ""
+":guilabel:`Work Time Rate`: The percentage of hours compared to the full "
+"time schedule. The percentage is auto-generated based on the :guilabel:`Full "
+"Time Equivalent` and the working hours configured in the *Working Hours* "
+"tab. This number should be between `0.00%` and `100%`, so if the percentage "
+"is above `100%`, it is an indication that the working times may need "
+"adjustment."
+msgstr ""
 
 #: ../../content/applications/hr/payroll/working_schedules.rst:47
-msgid ""
-":guilabel:`Company Full Time`: Enter the number of hours per week an "
-"employee would need to work to be considered a full-time employee. "
-"Typically, this is approximately 40 hours, and this number affects what "
-"types of benefits an employee can receive, based on their employment status "
-"(full-time vs part-time)."
-msgstr ""
-":guilabel:`Tempo Integral da Empresa`: Insira o número de horas por semana "
-"que um funcionário precisaria trabalhar para ser considerado um funcionário "
-"em tempo integral. Normalmente, isso é aproximadamente 40 horas, e esse "
-"número afeta quais tipos de benefícios um funcionário pode receber, com base "
-"em seu status de emprego (tempo integral vs tempo parcial)."
-
-#: ../../content/applications/hr/payroll/working_schedules.rst:51
-msgid ""
-":guilabel:`Average Hour Per Day`: The average hours per day field is auto-"
-"populated, based on the working hours configured in the :guilabel:`Working "
-"Hours` tab. This entry affects resource planning, since the average daily "
-"hours affect what resources can be used, and in what quantity, per workday."
-msgstr ""
-":guilabel:`Média de Horas por Dia`: O campo de média de horas por dia é "
-"preenchido automaticamente, com base nas horas de trabalho configuradas na "
-"aba :guilabel:`Horas de Trabalho`. Esta entrada afeta o planejamento de "
-"recursos, pois as horas diárias médias afetam quais recursos podem ser "
-"usados e em que quantidade por dia útil."
-
-#: ../../content/applications/hr/payroll/working_schedules.rst:59
 msgid ""
 ":guilabel:`Company`: Select the company that can use these new default "
 "working hours from the drop-down menu. A blank field indicates it is "
@@ -47367,63 +47046,57 @@ msgstr ""
 "trabalho padrão no menu suspenso. Um campo em branco indica que está "
 "disponível para todas as empresas."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:64
+#: ../../content/applications/hr/payroll/working_schedules.rst:49
 msgid ""
-"Next, configure the individual hours in the :guilabel:`Working Hours` tab. "
-"This tab lists the specific working hours for each day."
+":guilabel:`2 Week's Calendar`: Enable this option to switch from a one-week "
+"calendar to a two-week calendar. When enabled, two tabs appear: *Week 1 "
+"Working Hours* and *Week 2 Working Hours*."
 msgstr ""
-"Em seguida, configure as horas individuais na aba :guilabel:`Horas de "
-"Trabalho`. Esta aba lista as horas de trabalho específicas para cada dia."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:67
+#: ../../content/applications/hr/payroll/working_schedules.rst:52
 msgid ""
-"The :guilabel:`Working Hours` are auto-populated for a default 40-hour work "
-"week, with each day divided into three timed sections."
+"Next, configure the individual hours in the *Working Hours* tab. This tab "
+"lists the specific working hours for each day, including breaks."
 msgstr ""
-"As :guilabel:`Horas de Trabalho` são preenchidas automaticamente para uma "
-"semana de trabalho padrão de 40 horas, com cada dia dividido em três seções "
-"de tempo."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:70
+#: ../../content/applications/hr/payroll/working_schedules.rst:55
 msgid ""
-"Every day has morning (8:00-12:00), lunch (12:00-13:00), and evening "
-"(13:00-17:00) hours configured."
+"The default presented working hours are for a 40-hour work week, with each "
+"day divided into three timed sections. Every day has morning (8:00-12:00), "
+"lunch (12:00-13:00), and evening (13:00-17:00) hours configured."
 msgstr ""
-"Cada dia tem horários de manhã (8:00-12:00), almoço (12:00-13:00) e tarde "
-"(13:00-17:00) configurados."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:73
+#: ../../content/applications/hr/payroll/working_schedules.rst:60
 msgid ""
-"The :guilabel:`Work From` and :guilabel:`Work To` times **must** be in a 24-"
+"The :guilabel:`Work from` and :guilabel:`Work to` times **must** be in a 24-"
 "hour format. For example, `2:00 PM` is entered as `14:00`."
 msgstr ""
-"Os horários :guilabel:`Trabalhar De` e :guilabel:`Trabalhar Até` **devem** "
-"estar em formato de 24 horas. Por exemplo, `2:00 PM` é inserido como `14:00`."
 
-#: ../../content/applications/hr/payroll/working_schedules.rst:76
+#: ../../content/applications/hr/payroll/working_schedules.rst:63
 msgid ""
-"Modify the :guilabel:`Day of Week`, :guilabel:`Day Period`, "
-"and :guilabel:`Work Entry Type` selections by clicking on the drop-down "
-"menus in each column and making the desired selection. The :guilabel:`Work "
-"From` and :guilabel:`Work To` columns are modified by typing in the time."
+"Update the :guilabel:`Name` of each shift, if desired. Modify "
+"the :guilabel:`Day of Week`, :guilabel:`Day Period`, and :guilabel:`Work "
+"Entry Type` selections by clicking into the drop-down menus in each column "
+"and making the desired selection. The :guilabel:`Work from`, "
+"and :guilabel:`Work to` columns are modified by typing in the time."
 msgstr ""
-"Modifique as seleções :guilabel:`Dia da Semana`, :guilabel:`Período do Dia` "
-"e :guilabel:`Tipo de Entrada de Trabalho` clicando nos menus suspensos em "
-"cada coluna e fazendo a seleção desejada. As colunas :guilabel:`Trabalhar "
-"De` e :guilabel:`Trabalhar Até` são modificadas digitando o horário."
-
-#: ../../content/applications/hr/payroll/working_schedules.rst:81
-msgid ""
-"Keep in mind, working hours are company-specific, and **cannot** be shared "
-"between companies. Each company needs to have its own working hours set."
-msgstr ""
-"Tenha em mente que os horários de trabalho são específicos da empresa e "
-"**não podem** ser compartilhados entre empresas. Cada empresa precisa ter "
-"seus próprios horários de trabalho definidos."
 
 #: ../../content/applications/hr/payroll/working_schedules.rst:None
 msgid "New working schedule form."
 msgstr "Novo formulário de horário de trabalho."
+
+#: ../../content/applications/hr/payroll/working_schedules.rst:72
+msgid ""
+"If the working hours are not consistent each week, and the hours are on a bi-"
+"weekly schedule instead, enable the :guilabel:`Switch to 2 week calendar` "
+"checkbox on the new *Working Schedules* form. This changes the single "
+"*Working Hours* tab to two tabs, a *Week 1 Working Hours* and a *Week 2 "
+"Working Hours* tab, where the working times can be adjusted."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/working_schedules.rst:0
+msgid "A working schedule set to a two week schedule."
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:5
 msgid "Recruitment"
@@ -48374,8 +48047,8 @@ msgid ":doc:`recruitment/source_analysis`"
 msgstr ":doc:`recruitment/source_analysis`"
 
 #: ../../content/applications/hr/recruitment.rst:373
-msgid ":doc:`recruitment/velocity_analysis`"
-msgstr ":doc:`recruitment/velocity_analysis`"
+msgid ":doc:`recruitment/hiring_velocity`"
+msgstr ""
 
 #: ../../content/applications/hr/recruitment.rst:374
 msgid ":doc:`recruitment/team_performance`"
@@ -48956,6 +48629,161 @@ msgstr ""
 "Somente os estados que têm candidatos são mostrados para cada vaga de "
 "emprego. Se **não** houver nenhum candidato no estado, ele não aparecerá na "
 "lista."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:3
+msgid "Hiring velocity"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:5
+msgid ""
+"The *Hiring Velocity* report provides information on how long applicants "
+"stay in each stage of the recruitment process. This is important, as every "
+"job position has specific :ref:`hiring process details <recruitment/new_job/"
+"hiring-process>` that state the length of time applicants should expect to "
+"wait between specific stages."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:10
+msgid ""
+"Knowing how long applicants remain in each stage can help highlight possible "
+"bottlenecks. Analyzing this data allows the recruitment team to assess each "
+"stage, identify any issues, and pivot their strategies to move applicants "
+"through each stage, within the expected time interval."
+msgstr ""
+"Saber quanto tempo os candidatos permanecem em cada estágio pode ajudar a "
+"destacar possíveis gargalos. A análise desses dados permite que a equipe de "
+"recrutamento avalie cada estágio, identifique eventuais problemas e dinamize "
+"suas estratégias para que os candidatos passem por cada estágio, dentro do "
+"intervalo de tempo esperado."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:15
+msgid "Hiring velocity report"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:17
+msgid ""
+"To access the *Hiring Velocity* report, navigate "
+"to :menuselection:`Recruitment app --> Reporting --> Hiring Velocity`. The "
+"report displays data for all job positions, with the stages populating the x-"
+"axis, and the number of days populating the y-axis, in a default :icon:`fa-"
+"line-chart` :guilabel:`(Line Chart)`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:22
+msgid ""
+"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
+"information for the last 365 days."
+msgstr ""
+"O filtro padrão é :guilabel:`Candidato dos últimos 365 dias`, que mostra "
+"informações dos últimos 365 dias."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:25
+msgid ""
+"Hover over a stage in the line chart to reveal a popover window listing all "
+"the job positions within it, and the average number of days each job "
+"position sat in each stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:28
+msgid ""
+"For a more visually digestible view of the information in the *Hiring "
+"Velocity* report, click the :icon:`fa-bar-chart` :guilabel:`(Bar Chart)` "
+"icon in the corner. This displays all the information in a bar chart."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:32
+msgid ""
+"In this view, it is easier to visualize the differences between the job "
+"positions, regarding how long applicants stay in each stage. From this view, "
+"recruiters can determine which job positions have delays or bottlenecks at "
+"certain stages."
+msgstr ""
+"Nesta visualização, é mais fácil visualizar as diferenças entre as vagas em "
+"relação ao tempo que os candidatos permanecem em cada etapa. A partir desta "
+"visualização, os recrutadores podem determinar quais vagas apresentam "
+"atrasos ou gargalos em determinadas etapas."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "A bar chart view of the hiring velocity report."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:40
+msgid "Use case: comparing times by month"
+msgstr "Caso de uso: comparação de tempo por mês"
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:42
+msgid ""
+"With the *Hiring Velocity* report, it is possible to see if there are "
+"certain months where applicants take longer to be moved through the "
+"pipeline. To view this data, switch to the pivot table view by clicking "
+"the :icon:`oi-view-pivot` :guilabel:`(Pivot)` icon in the corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:46
+msgid ""
+"This presents the data in a detailed pivot table, with the rows representing "
+"the different job positions, and the columns representing the stages. "
+"The :guilabel:`Average Days in Stage` populates the various boxes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:51
+msgid ""
+"If a field is empty, it indicates no applicant has been in that stage. "
+"Instead, all applicants moved from a previous stage without being placed in "
+"the stage with an empty field."
+msgstr ""
+"Se um campo estiver vazio, isso indica que nenhum candidato esteve nessa "
+"etapa. Em vez disso, todos os candidatos saíram de um estágio anterior sem "
+"serem colocados no estágio com campo vazio."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table view of the Velocity Analysis report."
+msgstr "A visualização em tabela dinâmica do relatório Análise de Velocidade."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:57
+msgid ""
+"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+"rows to collapse the information. Next, click :icon:`fa-plus-"
+"square` :guilabel:`Total` again, revealing a drop-down menu. "
+"Click :guilabel:`Custom Group` :icon:`fa-caret-down` at the bottom of the "
+"list, revealing further grouping options. Click :guilabel:`Start Date` from "
+"the expanded list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:62
+msgid ""
+"After doing so, the data presented is grouped with the various months from "
+"the previous 365 days for the rows, leaving the :guilabel:`Average Days in "
+"Stage` as the columns."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:None
+msgid "The pivot table showing the months averages for times in stage."
+msgstr "Tabela de pivô que mostra as médias de tempos nos estágios dos meses."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:68
+msgid ""
+"In this example, :guilabel:`July 2026` had the longest time that applicants "
+"spent in each stage, on average. In addition, the :guilabel:`Second "
+"Interview` stage had the longest wait time in July, with an average "
+"of :guilabel:`29.04` days in that stage."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:72
+msgid ""
+"While this report does not display the reasons applicants stayed in the "
+"various stages for these lengths of time, it can be helpful to know when "
+"delays occur."
+msgstr ""
+"Embora este relatório não apresente os motivos pelos quais os candidatos "
+"permaneceram nos estágios por esses períodos de tempo, pode ser útil saber "
+"quando ocorrem atrasos."
+
+#: ../../content/applications/hr/recruitment/hiring_velocity.rst:76
+msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
+msgstr ""
+":doc:`Documentação de Noções básicas de relatórios <../../essentials/"
+"reporting>`"
 
 #: ../../content/applications/hr/recruitment/new_job.rst:3
 msgid "Job positions"
@@ -50710,7 +50538,7 @@ msgstr ""
 msgid ""
 "The applicant's email address automatically populates "
 "the :guilabel:`Applicant` field. The :guilabel:`Subject` and email body are "
-"populated according to the corresponding email template."
+"populated according to the corresponding email"
 msgstr ""
 
 #: ../../content/applications/hr/recruitment/refuse_applicant.rst:105
@@ -51531,195 +51359,6 @@ msgid ""
 "recruiter, with a total of eight hires, while :guilabel:`Carol Bishop` has "
 "the fewest hires, with only three."
 msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:3
-msgid "Velocity analysis"
-msgstr "Análise de velocidade"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:5
-msgid ""
-"The *Velocity Analysis* report provides information on how long applicants "
-"stay in each stage of the recruitment process. This is important, as every "
-"job position has specific :ref:`hiring process details <recruitment/new_job/"
-"hiring-process>` that state the length of time applicants should expect to "
-"wait between specific stages."
-msgstr ""
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:10
-msgid ""
-"Knowing how long applicants remain in each stage can help highlight possible "
-"bottlenecks. Analyzing this data allows the recruitment team to assess each "
-"stage, identify any issues, and pivot their strategies to move applicants "
-"through each stage, within the expected time interval."
-msgstr ""
-"Saber quanto tempo os candidatos permanecem em cada estágio pode ajudar a "
-"destacar possíveis gargalos. A análise desses dados permite que a equipe de "
-"recrutamento avalie cada estágio, identifique eventuais problemas e dinamize "
-"suas estratégias para que os candidatos passem por cada estágio, dentro do "
-"intervalo de tempo esperado."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:15
-msgid "Velocity analysis report"
-msgstr "Relatório de análise de velocidade"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:17
-msgid ""
-"To access the report, navigate to :menuselection:`Recruitment app --> "
-"Reporting --> Velocity Analysis`. By default, the report displays data for "
-"all job positions, with the stages populating the x-axis, and the number of "
-"days populating the y-axis, in a :icon:`fa-line-chart` :guilabel:`(Line "
-"Chart)`."
-msgstr ""
-"Para acessar o relatório, navegue até :menuselection:`Aplicativo "
-"Recrutamento --> Relatórios --> Análise de Velocidade`. Por padrão, o "
-"relatório exibe dados de todas as vagas, com as etapas preenchendo o eixo x "
-"e o número de dias preenchendo o eixo y, em um :icon:`fa-line-"
-"chart` :guilabel:`(Gráfico de Linhas)`."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:22
-msgid ""
-"The default filter is :guilabel:`Last 365 Days Applicant`, showing "
-"information for the last 365 days."
-msgstr ""
-"O filtro padrão é :guilabel:`Candidato dos últimos 365 dias`, que mostra "
-"informações dos últimos 365 dias."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:25
-msgid ""
-"Hover over a stage in the line chart to reveal a popover window listing all "
-"the job positions within it, and the average number of days each job "
-"position sits in each stage."
-msgstr ""
-"Passe o mouse sobre um estágio no gráfico de linhas para revelar uma janela "
-"pop-over que lista todas as vagas nele e o número médio de dias que cada "
-"vaga fica em cada estágio."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:28
-msgid ""
-"For a more visually digestible view of the information in "
-"the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
-"chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This displays "
-"all the information in a bar chart."
-msgstr ""
-"Para uma visualização mais digerível das informações no "
-"relatório :guilabel:`Análise de Velocidade`, clique no ícone :icon:`fa-bar-"
-"chart` :guilabel:`(Gráfico de Barras)` no canto superior esquerdo. Isso "
-"exibe todas as informações em um gráfico de barras."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:32
-msgid ""
-"In this view, it is easier to visualize the differences between the job "
-"positions, regarding how long applicants stay in each stage. From this view, "
-"recruiters can determine which job positions have delays or bottlenecks at "
-"certain stages."
-msgstr ""
-"Nesta visualização, é mais fácil visualizar as diferenças entre as vagas em "
-"relação ao tempo que os candidatos permanecem em cada etapa. A partir desta "
-"visualização, os recrutadores podem determinar quais vagas apresentam "
-"atrasos ou gargalos em determinadas etapas."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The bar chart view of the Velocity Analysis report."
-msgstr ""
-"A visualização em gráfico de barras do relatório Análise de Velocidade."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:40
-msgid "Use case: comparing times by month"
-msgstr "Caso de uso: comparação de tempo por mês"
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:42
-msgid ""
-"With the :guilabel:`Velocity Analysis` report, it is possible to see if "
-"there are certain months where applicants take longer to be moved through "
-"the pipeline. To view this data, switch to the :icon:`oi-view-"
-"pivot` :guilabel:`(Pivot)` view in the upper-right corner."
-msgstr ""
-"Com o relatório :guilabel:`Análise de Velocidade`, é possível ver se há "
-"determinados meses em que os candidatos levam mais tempo para avançar no "
-"processo. Para visualizar esses dados, alterne para a visualização :icon:`oi-"
-"view-pivot` :guilabel:`(Tabela Dinâmica)` no canto superior direito."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:46
-msgid ""
-"This presents the data in a detailed pivot table, with the rows representing "
-"the different job positions, and the columns representing the stages. The "
-"average :guilabel:`Days in Stage` populates the various boxes."
-msgstr ""
-"Isso apresenta os dados em uma tabela de pivô detalhada, com as linhas "
-"representando os diferentes cargos e as colunas representando os estágios. A "
-"média de :guilabel:`Dias no estágio` preenche as diversas caixas."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:51
-msgid ""
-"If a field is empty, it indicates no applicant has been in that stage. "
-"Instead, all applicants moved from a previous stage without being placed in "
-"the stage with an empty field."
-msgstr ""
-"Se um campo estiver vazio, isso indica que nenhum candidato esteve nessa "
-"etapa. Em vez disso, todos os candidatos saíram de um estágio anterior sem "
-"serem colocados no estágio com campo vazio."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table view of the Velocity Analysis report."
-msgstr "A visualização em tabela dinâmica do relatório Análise de Velocidade."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:57
-msgid ""
-"Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
-"rows to collapse the information. Next, click :icon:`fa-plus-"
-"square` :guilabel:`Total` again, revealing a drop-down menu. "
-"Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
-"the list, revealing further grouping options. Click :guilabel:`Start Date` "
-"from the expanded list."
-msgstr ""
-"Clique em :icon:`fa-minus-square-o` :guilabel:`Total` acima das linhas de "
-"vagas para colapsar as informações. Em seguida, clique novamente "
-"em :icon:`fa-plus-square` :guilabel:`Total` para abrir um menu suspenso. "
-"Clique em :guilabel:`Adicionar grupo personalizado` :icon:`fa-caret-down` na "
-"parte inferior da lista, revelando outras opções de agrupamento. Clique "
-"em :guilabel:`Data de início` na lista expandida."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:62
-msgid ""
-"After doing so, the data presented is grouped with the various months from "
-"the previous 365 days for the rows, leaving the :guilabel:`Days In Stage` as "
-"the columns."
-msgstr ""
-"Depois de fazer isso, os dados apresentados são agrupados com os meses dos "
-"365 dias anteriores como linhas, deixando :guilabel:`Dias no estágio` como "
-"colunas."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:None
-msgid "The pivot table showing the months averages for times in stage."
-msgstr "Tabela de pivô que mostra as médias de tempos nos estágios dos meses."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:68
-msgid ""
-"In this example, :guilabel:`July 2024` had the longest time that applicants "
-"spent in each stage, on average. In addition, the :guilabel:`Contract "
-"Proposal` stage had the longest wait time in July, with an average "
-"of :guilabel:`31.62` days in that stage."
-msgstr ""
-"Nesse exemplo, o tempo mais longo que os candidatos passaram em cada etapa, "
-"em média, foi em :guilabel:`Julho de 2024`. Além disso, a "
-"etapa :guilabel:`Proposta de contrato` teve o maior tempo de espera em "
-"julho, com uma média de :guilabel:`31,62` dias nessa etapa."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:72
-msgid ""
-"While this report does not display the reasons applicants stayed in the "
-"various stages for these lengths of time, it can be helpful to know when "
-"delays occur."
-msgstr ""
-"Embora este relatório não apresente os motivos pelos quais os candidatos "
-"permaneceram nos estágios por esses períodos de tempo, pode ser útil saber "
-"quando ocorrem atrasos."
-
-#: ../../content/applications/hr/recruitment/velocity_analysis.rst:76
-msgid ":doc:`Essentials reporting documentation <../../essentials/reporting>`"
-msgstr ""
-":doc:`Documentação de Noções básicas de relatórios <../../essentials/"
-"reporting>`"
 
 #: ../../content/applications/hr/referrals.rst:5
 msgid "Referrals"
@@ -57261,6 +56900,839 @@ msgid ""
 msgstr ""
 "A metade inferior do formulário de tipo de folga, com a cor e o ícone "
 "selecionados."
+
+#~ msgid ":doc:`payroll/payroll_analysis`"
+#~ msgstr ":doc:`payroll/payroll_analysis`"
+
+#~ msgid ""
+#~ ":guilabel:`Pay Category`: Select one of the default pay categories using "
+#~ "the drop-down menu. The default pay categories are :guilabel:`Employee` "
+#~ "or :guilabel:`Worker`, which are pulled from the configured *salary "
+#~ "structures* in the **Payroll** app. A :ref:`new pay category <payroll/new-"
+#~ "structure-type>` can be created, if needed."
+#~ msgstr ""
+#~ ":guilabel:`Categoria Salarial`: Selecione uma das categorias salariais "
+#~ "padrão usando o menu suspenso. As categorias salariais padrão "
+#~ "são :guilabel:`Funcionário` ou :guilabel:`Trabalhador`, que são obtidas "
+#~ "das *estruturas salariais* configuradas no aplicativo **Folha de "
+#~ "Pagamento**. Uma :ref:`nova categoria salarial <payroll/new-structure-"
+#~ "type>` pode ser criada, se necessário."
+
+#~ msgid "Payroll analysis"
+#~ msgstr "Análise de folha de pagamento"
+
+#~ msgid ""
+#~ "The *Payroll Analysis* report displays the total net wage for the "
+#~ "company, for the last 365 days. This report allows companies to view "
+#~ "their payroll costs and identify any trends."
+#~ msgstr ""
+#~ "O relatório *Análise de Folha de Pagamento* exibe o salário líquido total "
+#~ "da empresa nos últimos 365 dias. Este relatório permite que as empresas "
+#~ "visualizem seus custos de folha de pagamento e identifiquem quaisquer "
+#~ "tendências."
+
+#~ msgid ""
+#~ "To view the *Payroll Analysis* report, navigate "
+#~ "to :menuselection:`Payroll app --> Reporting --> Payroll`."
+#~ msgstr ""
+#~ "Para visualizar o relatório *Análise de Folha de Pagamento*, navegue "
+#~ "até :menuselection:`aplicativo Folha de Pagamento --> Relatórios --> "
+#~ "Folha de Pagamento`."
+
+#~ msgid ""
+#~ ":guilabel:`Net Wage` is the default metric displayed in the report, but "
+#~ "other measures can be displayed if desired, such as *gross wage* or *days "
+#~ "of paid time off*. Click the :guilabel:`Measures` :icon:`fa-caret-down` "
+#~ "button to view a drop-down menu of other metrics to display. Click on the "
+#~ "desired measure to display the results."
+#~ msgstr ""
+#~ ":guilabel:`Salário Líquido` é a métrica padrão exibida no relatório, mas "
+#~ "outras medidas podem ser exibidas se desejado, como *salário bruto* ou "
+#~ "*dias de folga remunerada*. Clique no botão :guilabel:`Medidas` :icon:`fa-"
+#~ "caret-down` para visualizar um menu suspenso de outras métricas a serem "
+#~ "exibidas. Clique na medida desejada para exibir os resultados."
+
+#~ msgid "Payroll overview report showing payroll for the last 365 days."
+#~ msgstr ""
+#~ "Relatório de visão geral da folha de pagamento dos últimos 365 dias."
+
+#~ msgid "View multiple metrics"
+#~ msgstr "Visualizar múltiplas métricas"
+
+#~ msgid ""
+#~ "It is possible to view multiple metrics at one time by viewing the report "
+#~ "in the *pivot table* view. This can aid management to determine other "
+#~ "trends, such as which departments do not take time off, or which "
+#~ "departments have the highest payroll costs."
+#~ msgstr ""
+#~ "É possível visualizar múltiplas métricas ao mesmo tempo visualizando o "
+#~ "relatório na visualização de *tabela dinâmica*. Isso pode ajudar a gestão "
+#~ "a determinar outras tendências, como quais departamentos não tiram "
+#~ "folgas, ou quais departamentos têm os maiores custos de folha de "
+#~ "pagamento."
+
+#~ msgid ""
+#~ "**Only one** measure is able to be displayed in the default :icon:`fa-"
+#~ "area-chart` :guilabel:`Graph` view. Multiple measures are **only** "
+#~ "possible in the :icon:`oi-view-pivot` :guilabel:`Pivot` view."
+#~ msgstr ""
+#~ "**Apenas uma** medida pode ser exibida na visualização padrão :icon:`fa-"
+#~ "area-chart` :guilabel:`Gráfico`. Múltiplas medidas são possíveis "
+#~ "**apenas** na visualização :icon:`oi-view-pivot` :guilabel:`Dinâmica`."
+
+#~ msgid ""
+#~ "To display the data in a pivot table, click on the :icon:`oi-view-"
+#~ "pivot` :guilabel:`Pivot` button."
+#~ msgstr ""
+#~ "Para exibir os dados em uma tabela dinâmica, clique no botão :icon:`oi-"
+#~ "view-pivot` :guilabel:`Dinâmica`."
+
+#~ msgid ""
+#~ "The default information displayed includes the number of payslips "
+#~ "(:guilabel:`# Payslip`), the number of :guilabel:`Days of Paid Time Off` "
+#~ "and :guilabel:`Days of Unpaid Time Off`, along with the :guilabel:`Net "
+#~ "Wage` and :guilabel:`Gross Wage`. All the information is organized by "
+#~ "department."
+#~ msgstr ""
+#~ "As informações padrão exibidas incluem o número de holerites "
+#~ "(:guilabel:`# Holerite`), o número de :guilabel:`Dias de Folga "
+#~ "Remunerada` e :guilabel:`Dias de Folga Não Remunerada`, juntamente com "
+#~ "o :guilabel:`Salário Líquido` e :guilabel:`Salário Bruto`. Todas as "
+#~ "informações são organizadas por departamento."
+
+#~ msgid ""
+#~ "To display more information on the report, click "
+#~ "the :guilabel:`Measures` :icon:`fa-caret-down` button to reveal a drop-"
+#~ "down menu. Click on any metric to display it on the pivot table."
+#~ msgstr ""
+#~ "Para exibir mais informações no relatório, clique no "
+#~ "botão :guilabel:`Medidas` :icon:`fa-caret-down` para revelar um menu "
+#~ "suspenso. Clique em qualquer métrica para exibi-la na tabela dinâmica."
+
+#~ msgid "Pivot table view with the various metrics on display."
+#~ msgstr "Visualização de tabela dinâmica com as várias métricas exibidas."
+
+#~ msgid "Use case: comparing payroll costs"
+#~ msgstr "Caso de uso: comparando custos de folha de pagamento"
+
+#~ msgid ""
+#~ "Managers can compare payroll costs, and determine which departments have "
+#~ "raised their payroll costs, either by hiring more employees, or by "
+#~ "raising salaries."
+#~ msgstr ""
+#~ "Os gerentes podem comparar custos de folha de pagamento e determinar "
+#~ "quais departamentos aumentaram seus custos de folha de pagamento, seja "
+#~ "contratando mais funcionários ou aumentando salários."
+
+#~ msgid ""
+#~ "To compare previous periods of time, first view the *Payroll Analysis* "
+#~ "report in a :ref:`pivot table <payroll_analysis/multiple>`. Then, click "
+#~ "the :icon:`fa-caret-down` :guilabel:`(Toggle Search Panel)` icon in the "
+#~ "search bar, and click  :guilabel:`Start Date` :icon:`fa-caret-down` to "
+#~ "reveal a list of time periods (months, quarters, and years). Click on a "
+#~ "desired time period, and a :icon:`fa-adjust` :guilabel:`Comparison` "
+#~ "section appears in the search bar. Click on one of the two available "
+#~ "options, either :guilabel:`Start Date: Previous Period`, "
+#~ "or :guilabel:`Start Date: Previous Year`."
+#~ msgstr ""
+#~ "Para comparar períodos anteriores, primeiro visualize o relatório "
+#~ "*Análise de Folha de Pagamento* em uma :ref:`tabela dinâmica "
+#~ "<payroll_analysis/multiple>`. Em seguida, clique no ícone :icon:`fa-caret-"
+#~ "down` :guilabel:`(Alternar Painel de Pesquisa)` na barra de pesquisa e "
+#~ "clique em :guilabel:`Data de Início` :icon:`fa-caret-down` para revelar "
+#~ "uma lista de períodos de tempo (meses, trimestres e anos). Clique em um "
+#~ "período de tempo desejado e uma seção :icon:`fa-"
+#~ "adjust` :guilabel:`Comparação` aparece na barra de pesquisa. Clique em "
+#~ "uma das duas opções disponíveis, :guilabel:`Data de Início: Período "
+#~ "Anterior` ou :guilabel:`Data de Início: Ano Anterior`."
+
+#~ msgid ""
+#~ "The report now displays three columns of information for every displayed "
+#~ "measure: a column for the current time period, a column for the previous "
+#~ "time period, and a :guilabel:`Variation` column, which displays the "
+#~ "difference between the two time periods in a color-coded percentage "
+#~ "(green for increases, red for decreases.)"
+#~ msgstr ""
+#~ "O relatório agora exibe três colunas de informações para cada medida "
+#~ "exibida: uma coluna para o período atual, uma coluna para o período "
+#~ "anterior e uma coluna :guilabel:`Variação`, que exibe a diferença entre "
+#~ "os dois períodos em uma porcentagem codificada por cores (verde para "
+#~ "aumentos, vermelho para diminuições)."
+
+#~ msgid ""
+#~ "In this example, the data shows an overall increase in the number of "
+#~ "payslips. Since the company pays all employees every two weeks, an "
+#~ "increase in the number of payslips (:guilabel:`# Payslips`) means that "
+#~ "more employees were hired, in this example, a 500% increase."
+#~ msgstr ""
+#~ "Neste exemplo, os dados mostram um aumento geral no número de holerites. "
+#~ "Como a empresa paga todos os funcionários a cada duas semanas, um aumento "
+#~ "no número de holerites (:guilabel:`# Holerites`) significa que mais "
+#~ "funcionários foram contratados, neste exemplo, um aumento de 500%."
+
+#~ msgid ""
+#~ "Additionally, both the :guilabel:`Net Wage` and :guilabel:`Gross Wage` "
+#~ "increased. The department :guilabel:`RD US` showed the largest growth, "
+#~ "with both metrics increasing by approximately 350%."
+#~ msgstr ""
+#~ "Além disso, tanto o :guilabel:`Salário Líquido` quanto "
+#~ "o :guilabel:`Salário Bruto` aumentaram. O departamento :guilabel:`RD US` "
+#~ "apresentou o maior crescimento, com ambas as métricas aumentando "
+#~ "aproximadamente 350%."
+
+#~ msgid "Pivot table view comparing two years of data."
+#~ msgstr "Visualização de tabela dinâmica comparando dois anos de dados."
+
+#~ msgid ":doc:`../../essentials/reporting`"
+#~ msgstr ":doc:`../../essentials/reporting`"
+
+#~ msgid ""
+#~ "Set a default :guilabel:`Wage Type` in the salary :ref:`Structure Type "
+#~ "<payroll/structure-types>` to configure employees in bulk. If needed, the "
+#~ "default can be overridden on individual employee records if exceptions "
+#~ "are needed."
+#~ msgstr ""
+#~ "Defina um :guilabel:`Tipo de Salário` padrão no :ref:`Tipo de Estrutura "
+#~ "<payroll/structure-types>` salarial para configurar funcionários em "
+#~ "massa. Se necessário, o padrão pode ser substituído em registros "
+#~ "individuais de funcionários se exceções forem necessárias."
+
+#~ msgid ""
+#~ "In Odoo, salaries are calculated and determined by five factors: "
+#~ "salary :ref:`structure types <payroll/structure-types>`, "
+#~ "salary :ref:`structures <payroll/structures>`, :ref:`rules <payroll/"
+#~ "rules>`, :ref:`rule parameters <payroll/rule-parameters>`, "
+#~ "and :ref:`other input types <payroll/other-input>`. Together, these "
+#~ "determine how each employee's pay is calculated."
+#~ msgstr ""
+#~ "No Odoo, os salários são calculados e determinados por cinco "
+#~ "fatores: :ref:`tipos de estrutura <payroll/structure-types>` "
+#~ "salarial, :ref:`estruturas <payroll/structures>` salariais, :ref:`regras "
+#~ "<payroll/rules>`, :ref:`parâmetros de regras <payroll/rule-parameters>` "
+#~ "e :ref:`outros tipos de entrada <payroll/other-input>`. Juntos, estes "
+#~ "determinam como o pagamento de cada funcionário é calculado."
+
+#~ msgid ""
+#~ "Each *structure type* contains one or more *structures* within it. Each "
+#~ "*structure* contains a set of *rules*, and every *rule* uses *parameters* "
+#~ "to define how specific amounts are calculated. Additional inputs, (such "
+#~ "as bonuses or deductions) can also be included to adjust the final salary."
+#~ msgstr ""
+#~ "Cada *tipo de estrutura* contém uma ou mais *estruturas* dentro dele. "
+#~ "Cada *estrutura* contém um conjunto de *regras*, e cada *regra* usa "
+#~ "*parâmetros* para definir como valores específicos são calculados. "
+#~ "Entradas adicionais (como bônus ou deduções) também podem ser incluídas "
+#~ "para ajustar o salário final."
+
+#~ msgid ""
+#~ "Typically, :guilabel:`Employee` is used for salaried employees, which is "
+#~ "why the :guilabel:`Default Wage Type` is a :guilabel:`Fixed Wage`, "
+#~ "and :guilabel:`Worker` is typically used for employees paid by the hour, "
+#~ "so the wage type is :guilabel:`Hourly Wage`."
+#~ msgstr ""
+#~ "Normalmente, :guilabel:`Funcionário` é usado para funcionários "
+#~ "assalariados, razão pela qual o :guilabel:`Tipo de Salário Padrão` é "
+#~ "um :guilabel:`Salário Fixo`, e :guilabel:`Trabalhador` é normalmente "
+#~ "usado para funcionários pagos por hora, portanto o tipo de salário "
+#~ "é :guilabel:`Salário por Hora`."
+
+#~ msgid ""
+#~ "If using a country-specific :doc:`payroll localizations "
+#~ "<payroll_localizations>`, it is recommended to use the structure in the "
+#~ "corresponding country localization document."
+#~ msgstr ""
+#~ "Se estiver usando uma :doc:`localização de folha de pagamento "
+#~ "<payroll_localizations>` específica do país, é recomendado usar a "
+#~ "estrutura no documento de localização do país correspondente."
+
+#~ msgid ""
+#~ ":guilabel:`Default Scheduled Pay`: Select the typical pay schedule for "
+#~ "the new structure type from the drop-down menu. This indicates how often "
+#~ "this specific type of structure is paid out."
+#~ msgstr ""
+#~ ":guilabel:`Pagamento Programado Padrão`: Selecione o cronograma de "
+#~ "pagamento típico para o novo tipo de estrutura no menu suspenso. Isso "
+#~ "indica com que frequência este tipo específico de estrutura é pago."
+
+#~ msgid ""
+#~ ":guilabel:`Default Working Hours`: Select the default working hours for "
+#~ "the new structure type from the drop-down menu. All available working "
+#~ "hours for the currently selected company appear in the drop-down menu. "
+#~ "The default working hours are the :guilabel:`Standard 40 hours/week` "
+#~ "option. If the needed working hours do not appear in the list, "
+#~ "a :ref:`new set of default working hours can be created <payroll/new-"
+#~ "default-working-hours>`."
+#~ msgstr ""
+#~ ":guilabel:`Horário de Trabalho Padrão`: Selecione o horário de trabalho "
+#~ "padrão para o novo tipo de estrutura no menu suspenso. Todos os horários "
+#~ "de trabalho disponíveis para a empresa atualmente selecionada aparecem no "
+#~ "menu suspenso. O horário de trabalho padrão é a opção :guilabel:`Padrão "
+#~ "40 horas/semana`. Se o horário de trabalho necessário não aparecer na "
+#~ "lista, :ref:`um novo conjunto de horários de trabalho padrão pode ser "
+#~ "criado <payroll/new-default-working-hours>`."
+
+#~ msgid ""
+#~ ":guilabel:`Regular Pay Structure`: Type in the name for the regular pay "
+#~ "structure. It is used as the default option when generating payslips."
+#~ msgstr ""
+#~ ":guilabel:`Estrutura de Pagamento Regular`: Digite o nome para a "
+#~ "estrutura de pagamento regular. Ela é usada como opção padrão ao gerar "
+#~ "holerites."
+
+#~ msgid ""
+#~ ":guilabel:`Default Work Entry Type`: Select the default work entry type "
+#~ "which is used to create all work entries for the employee."
+#~ msgstr ""
+#~ ":guilabel:`Tipo de Entrada de Trabalho Padrão`: Selecione o tipo de "
+#~ "entrada de trabalho padrão que é usado para criar todas as entradas de "
+#~ "trabalho do funcionário."
+
+#~ msgid "New default working hours"
+#~ msgstr "Novo horário de trabalho padrão"
+
+#~ msgid ""
+#~ "To make new default working hours, type the name for the new working "
+#~ "hours in the :guilabel:`Default Working Hours` field on the new structure "
+#~ "type form. Click :guilabel:`Create and edit`. A default working hours "
+#~ "form pops up. The default working hours form has two sections: a general "
+#~ "information section, and a tab listing all the individual working hours "
+#~ "by day and time. When the form is completed, click :guilabel:`Save & "
+#~ "Close`."
+#~ msgstr ""
+#~ "Para criar novos horários de trabalho padrão, digite o nome para os novos "
+#~ "horários de trabalho no campo :guilabel:`Horário de Trabalho Padrão` no "
+#~ "formulário do novo tipo de estrutura. Clique em :guilabel:`Criar e "
+#~ "editar`. Um formulário de horários de trabalho padrão será exibido. O "
+#~ "formulário de horários de trabalho padrão possui duas seções: uma seção "
+#~ "de informações gerais e uma aba listando todos os horários de trabalho "
+#~ "individuais por dia e horário. Quando o formulário estiver completo, "
+#~ "clique em :guilabel:`Salvar e Fechar`."
+
+#~ msgid ""
+#~ ":guilabel:`Name`: Type in the name for the new default working hours. "
+#~ "This should be descriptive and clear to understand, such as `Standard 20 "
+#~ "Hours/Week`."
+#~ msgstr ""
+#~ ":guilabel:`Nome`: Digite o nome para os novos horários de trabalho "
+#~ "padrão. Este deve ser descritivo e claro para entender, como `Padrão 20 "
+#~ "Horas/Semana`."
+
+#~ msgid ""
+#~ ":guilabel:`Flexible Hours`: Check the checkbox to let employees adjust "
+#~ "their start and end times while maintaining the same total daily hours."
+#~ msgstr ""
+#~ ":guilabel:`Horas Flexíveis`: Marque a caixa de seleção para permitir que "
+#~ "os funcionários ajustem seus horários de início e término mantendo o "
+#~ "mesmo total de horas diárias."
+
+#~ msgid ""
+#~ ":guilabel:`Company Full Time`: Enter the number of hours per week an "
+#~ "employee needs to work to be considered a full-time employee. Typically, "
+#~ "this is approximately 40 hours, and this number affects what types of "
+#~ "benefits an employee can receive, based on their employment status (full-"
+#~ "time vs part-time)."
+#~ msgstr ""
+#~ ":guilabel:`Tempo Integral da Empresa`: Digite o número de horas por "
+#~ "semana que um funcionário precisa trabalhar para ser considerado um "
+#~ "funcionário em tempo integral. Normalmente, isso é aproximadamente 40 "
+#~ "horas, e esse número afeta que tipos de benefícios um funcionário pode "
+#~ "receber, com base em seu status de emprego (tempo integral vs meio "
+#~ "período)."
+
+#~ msgid ""
+#~ ":guilabel:`Average Hour Per Day`: Auto-populated based on the working "
+#~ "hours in the :guilabel:`Working Hours` tab. This entry affects resource "
+#~ "planning by determining how many resources can be used per workday."
+#~ msgstr ""
+#~ ":guilabel:`Média de Horas Por Dia`: Preenchido automaticamente com base "
+#~ "nas horas de trabalho na aba :guilabel:`Horário de Trabalho`. Esta "
+#~ "entrada afeta o planejamento de recursos ao determinar quantos recursos "
+#~ "podem ser usados por dia útil."
+
+#~ msgid ""
+#~ ":guilabel:`Work Time Rate`: This percentage is auto-generated based on "
+#~ "the entry for the :guilabel:`Company Full Time` and the working hours "
+#~ "configured in the :guilabel:`Working Hours` tab. This number should be "
+#~ "between `0.00%` and `100%`, so if the percentage is above `100%`, it is "
+#~ "an indication that the working times and/or :guilabel:`Company Full Time` "
+#~ "hours need adjustment."
+#~ msgstr ""
+#~ ":guilabel:`Taxa de Tempo de Trabalho`: Esta porcentagem é gerada "
+#~ "automaticamente com base na entrada para :guilabel:`Tempo Integral da "
+#~ "Empresa` e nas horas de trabalho configuradas na aba :guilabel:`Horário "
+#~ "de Trabalho`. Este número deve estar entre `0,00%` e `100%`, portanto, se "
+#~ "a porcentagem estiver acima de `100%`, é uma indicação de que os horários "
+#~ "de trabalho e/ou as horas de :guilabel:`Tempo Integral da Empresa` "
+#~ "precisam de ajuste."
+
+#~ msgid ""
+#~ ":guilabel:`Company`: Select the company that can use these new default "
+#~ "working hours from the drop-down menu. Leave this field blank if the "
+#~ "hours are available for all companies."
+#~ msgstr ""
+#~ ":guilabel:`Empresa`: Selecione a empresa que pode usar esses novos "
+#~ "horários de trabalho padrão no menu suspenso. Deixe este campo em branco "
+#~ "se as horas estiverem disponíveis para todas as empresas."
+
+#~ msgid ""
+#~ ":guilabel:`Timezone`: Select the time zone to be used for the new default "
+#~ "working hours from the drop-down menu."
+#~ msgstr ""
+#~ ":guilabel:`Fuso Horário`: Selecione o fuso horário a ser usado para os "
+#~ "novos horários de trabalho padrão no menu suspenso."
+
+#~ msgid ""
+#~ ":guilabel:`Working Hours` Tab: This tab is where each day's specific "
+#~ "working hours are listed. When a new default working hour form is "
+#~ "created, the :guilabel:`Working Hours` tab is pre-populated with a "
+#~ "default 40-hour week, with each day divided into three timed sections."
+#~ msgstr ""
+#~ "Aba :guilabel:`Horário de Trabalho`: Esta aba é onde os horários de "
+#~ "trabalho específicos de cada dia são listados. Quando um novo formulário "
+#~ "de horário de trabalho padrão é criado, a aba :guilabel:`Horário de "
+#~ "Trabalho` é pré-preenchida com uma semana padrão de 40 horas, com cada "
+#~ "dia dividido em três seções cronometradas."
+
+#~ msgid ""
+#~ "Each day includes morning (8:00–12:00), lunch (12:00–13:00), and "
+#~ "afternoon (13:00–17:00) periods, configured using the 24-hour time format."
+#~ msgstr ""
+#~ "Cada dia inclui períodos de manhã (8:00–12:00), almoço (12:00–13:00) e "
+#~ "tarde (13:00–17:00), configurados usando o formato de 24 horas."
+
+#~ msgid ""
+#~ "To adjust any of these hours, click the field and modify the time using "
+#~ "the drop-down menus, or type the desired time directly."
+#~ msgstr ""
+#~ "Para ajustar qualquer um desses horários, clique no campo e modifique o "
+#~ "horário usando os menus suspensos ou digite o horário desejado "
+#~ "diretamente."
+
+#~ msgid ""
+#~ "If the working hours are not consistent each week, and the hours are on a "
+#~ "bi-weekly schedule instead, click the :guilabel:`Switch to 2 week "
+#~ "calendar` button at the top of the new default working hours form. This "
+#~ "changes the :guilabel:`Working Hours` tab to display two weeks of working "
+#~ "times that can be adjusted."
+#~ msgstr ""
+#~ "Se o horário de trabalho não for consistente em todas as semanas e, em "
+#~ "vez disso, o horário seguir um cronograma quinzenal, clique no "
+#~ "botão :guilabel:`Mudar para o calendário de 2 semanas` na parte superior "
+#~ "do novo formulário padrão de horas de trabalho. Isso altera a "
+#~ "aba :guilabel:`Horário de trabalho padrão` para exibir duas semanas de "
+#~ "horários de trabalho que podem ser ajustados."
+
+#~ msgid ""
+#~ "Each :ref:`structure type <payroll/structure-types>` lists the various "
+#~ "structures associated with it. Each structure contains a set of rules "
+#~ "that define it."
+#~ msgstr ""
+#~ "Cada :ref:`tipo de estrutura <payroll/structure-types>` lista as diversas "
+#~ "estruturas associadas a ele. Cada estrutura contém um conjunto de regras "
+#~ "que a definem."
+
+#~ msgid "All available salary structures."
+#~ msgstr "Todas as estruturas salariais disponíveis."
+
+#~ msgid ""
+#~ "To view all the rules, go to :menuselection:`Payroll app --> "
+#~ "Configuration --> Rules`. Click on a structure (such "
+#~ "as :guilabel:`Regular Pay`) to view all the rules."
+#~ msgstr ""
+#~ "Para visualizar todas as regras, acesse :menuselection:`aplicativo Folha "
+#~ "de Pagamento --> Configuração --> Regras`. Clique em uma estrutura "
+#~ "(como :guilabel:`Pagamento Regular`) para visualizar todas as regras."
+
+#~ msgid ""
+#~ "To make a new rule, click :guilabel:`New` and a blank :guilabel:`Salary "
+#~ "Rules` form loads. Enter the following information in the top half of the "
+#~ "form:"
+#~ msgstr ""
+#~ "Para criar uma nova regra, clique em :guilabel:`Novo` e um "
+#~ "formulário :guilabel:`Regras Salariais` em branco será carregado. Insira "
+#~ "as seguintes informações na metade superior do formulário:"
+
+#~ msgid ""
+#~ ":guilabel:`Appears on Payslip`: Check the checkbox to have the rule "
+#~ "visible on the employee payslip PDF."
+#~ msgstr ""
+#~ ":guilabel:`Aparece no Holerite`: Marque a caixa de seleção para ter a "
+#~ "regra visível no PDF do holerite do funcionário."
+
+#~ msgid ""
+#~ ":guilabel:`Contributes to Employer Cost`: Check the checkbox to include "
+#~ "the rule when computing the *employer cost* of a payslip."
+#~ msgstr ""
+#~ ":guilabel:`Contribui para o Custo do Empregador`: Marque a caixa de "
+#~ "seleção para incluir a regra ao calcular o *custo do empregador* de um "
+#~ "holerite."
+
+#~ msgid ""
+#~ "Fill out the following sections of the :guilabel:`General` tab. These "
+#~ "configurations determine *when* and *how* the rule is calculated."
+#~ msgstr ""
+#~ "Preencha as seguintes seções da aba :guilabel:`Geral`. Essas "
+#~ "configurações determinam *quando* e *como* a regra é calculada."
+
+#~ msgid ""
+#~ ":guilabel:`Section`: This groups several inputs into one expandable "
+#~ "section on the form view. Only one option is available by "
+#~ "default, :guilabel:`Inputs`."
+#~ msgstr ""
+#~ ":guilabel:`Seção`: Agrupa vários campos em uma seção expansível na "
+#~ "visualização do formulário. Apenas uma opção está disponível por "
+#~ "padrão, :guilabel:`Campos`."
+
+#~ msgid ""
+#~ ":guilabel:`inputs`: A dict containing the computed inputs Where *key** is "
+#~ "the other input type code and *value* is the sum of the payslip input "
+#~ "lines with the same code."
+#~ msgstr ""
+#~ ":guilabel:`inputs`: Um dicionário contendo as entradas computadas onde "
+#~ "*chave* é o código do tipo de outra entrada e *valor* é a soma das linhas "
+#~ "de entrada do holerite com o mesmo código."
+
+#~ msgid ""
+#~ "First, select a :guilabel:`Color` for the rule using the color picker. "
+#~ "Next, check the :guilabel:`Title` checkbox to **only** display the salary "
+#~ "rule's *title* and *description*, and hide any numerical values."
+#~ msgstr ""
+#~ "Primeiro, selecione uma :guilabel:`Cor` para a regra usando o seletor de "
+#~ "cores. Em seguida, marque a caixa de seleção :guilabel:`Título` para "
+#~ "exibir **apenas** o *título* e a *descrição* da regra salarial, e ocultar "
+#~ "quaisquer valores numéricos."
+
+#~ msgid ""
+#~ "Check the :guilabel:`Indented`, :guilabel:`Space "
+#~ "Above`, :guilabel:`Bold`, :guilabel:`Underline`, and :guilabel:`Italic` "
+#~ "checkboxes to activate the options."
+#~ msgstr ""
+#~ "Marque as caixas de seleção :guilabel:`Indentado`, :guilabel:`Espaço "
+#~ "Acima`, :guilabel:`Negrito`, :guilabel:`Sublinhado`, "
+#~ "e :guilabel:`Itálico` para ativar as opções."
+
+#~ msgid ""
+#~ "The rule parameters for overtime pay inform Odoo that employees receive "
+#~ "time and a half when working over 40 hours."
+#~ msgstr ""
+#~ "Os parâmetros de regras para pagamento de horas extras informam ao Odoo "
+#~ "que os funcionários recebem uma vez e meia quando trabalham mais de 40 "
+#~ "horas."
+
+#~ msgid ""
+#~ "When creating payslips, it is sometimes necessary to add other entries "
+#~ "for specific circumstances, like tips, commissions, expenses, or "
+#~ "deductions. These other inputs can be found by navigating "
+#~ "to :menuselection:`Payroll app --> Configuration --> Other Input Types`."
+#~ msgstr ""
+#~ "Ao criar holerites, às vezes é necessário adicionar outras entradas para "
+#~ "circunstâncias específicas, como gorjetas, comissões, despesas ou "
+#~ "deduções. Essas outras entradas podem ser encontradas navegando "
+#~ "até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
+#~ "Outros Tipos de Entrada`."
+
+#~ msgid ""
+#~ "A list of other input types for payroll that can be selected when "
+#~ "creating a new entry for\n"
+#~ "a payslip."
+#~ msgstr ""
+#~ "Lista de outros tipos de entrada na folha de pagamento, que podem ser "
+#~ "selecionados ao criar uma nova entrada em\n"
+#~ "um holerite."
+
+#~ msgid ""
+#~ "If a new input type is needed that does not appear on the list, click "
+#~ "the :guilabel:`New` button to create a new input type. Enter "
+#~ "the :guilabel:`Description`, the :guilabel:`Code`, and select which "
+#~ "structure it applies to in the :guilabel:`Availability in Structure` "
+#~ "field."
+#~ msgstr ""
+#~ "Se um novo tipo de entrada for necessário e não aparecer na lista, clique "
+#~ "no botão :guilabel:`Novo` para criar um novo tipo de entrada. Insira "
+#~ "a :guilabel:`Descrição`, o :guilabel:`Código` e selecione a qual "
+#~ "estrutura se aplica no campo :guilabel:`Disponibilidade na Estrutura`."
+
+#~ msgid ""
+#~ "Check the :guilabel:`Available in attachments` checkbox if the input "
+#~ "should be a salary attachment."
+#~ msgstr ""
+#~ "Marque a caixa de seleção :guilabel:`Disponível em anexos` se a entrada "
+#~ "deve ser um anexo salarial."
+
+#~ msgid "A new Input Type form filled in."
+#~ msgstr "Novo formulário de Tipo de entrada preenchido."
+
+#~ msgid ""
+#~ "The **Payroll** app automatically creates work entries based on the "
+#~ "employee's :ref:`salary structure type <payroll/structure-types>`, and "
+#~ "from the **Planning**, **Attendances**, and **Time Off** applications. "
+#~ "When needed, work entries can also be :ref:`created manually <payroll/new-"
+#~ "work-entry>`."
+#~ msgstr ""
+#~ "O aplicativo **Folha de Pagamento** cria automaticamente entradas de "
+#~ "trabalho com base no :ref:`tipo de estrutura salarial <payroll/structure-"
+#~ "types>` do funcionário e dos aplicativos **Planejamento**, **Controle de "
+#~ "Presença** e **Folgas**. Quando necessário, as entradas de trabalho "
+#~ "também podem ser :ref:`criadas manualmente <payroll/new-work-entry>`."
+
+#~ msgid ""
+#~ "In Odoo's **Payroll** app, *working schedules* are referred to as "
+#~ "*working hours* in :ref:`salary structures <payroll/structure-types>`."
+#~ msgstr ""
+#~ "No aplicativo **Folha de Pagamento** do Odoo, os *horários de trabalho* "
+#~ "são chamados de *horas de trabalho* nas :ref:`estruturas salariais "
+#~ "<payroll/structure-types>`."
+
+#~ msgid ""
+#~ "To view the currently configured working schedules, navigate "
+#~ "to :menuselection:`Payroll app --> Configuration --> Working Schedules`, "
+#~ "and the :guilabel:`Working Schedules` dashboard loads."
+#~ msgstr ""
+#~ "Para visualizar os horários de trabalho atualmente configurados, navegue "
+#~ "até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
+#~ "Horários de Trabalho`, e o painel :guilabel:`Horários de Trabalho` será "
+#~ "carregado."
+
+#~ msgid ""
+#~ "Working schedules are company-specific. In a multi-company database, each "
+#~ "company **must** identify each type of working schedule they use. If the "
+#~ "database is created for only one company, the :guilabel:`Company` column "
+#~ "is not available."
+#~ msgstr ""
+#~ "Os horários de trabalho são específicos da empresa. Em um banco de dados "
+#~ "multiempresa, cada empresa **deve** identificar cada tipo de horário de "
+#~ "trabalho que usa. Se o banco de dados for criado para apenas uma empresa, "
+#~ "a coluna :guilabel:`Empresa` não estará disponível."
+
+#~ msgid ""
+#~ "An Odoo database containing multiple companies that use a standard 40-"
+#~ "hour work week needs to have a separate working schedule entry for each "
+#~ "company that uses the 40-hour standard work week."
+#~ msgstr ""
+#~ "Uma base de dados Odoo que contém várias empresas que usam uma semana de "
+#~ "trabalho padrão de 40 horas precisa ter um registro de horário de "
+#~ "trabalho independente para cada empresa."
+
+#~ msgid ""
+#~ "A database with five companies that all use a standard 40-hour work week "
+#~ "needs to have five separate 40-hour working schedules configured."
+#~ msgstr ""
+#~ "Uma base de dados com cinco empresas que usam uma semana de trabalho "
+#~ "padrão de 40 horas precisa ter cinco horários de trabalho de 40 horas "
+#~ "configurados."
+
+#~ msgid ""
+#~ "To create a new working schedule, navigate to :menuselection:`Payroll app "
+#~ "--> Configuration --> Working Schedules`, and click :guilabel:`New`. "
+#~ "The :guilabel:`Working Schedules` form has two sections, a general "
+#~ "information section and a :guilabel:`Working Hours` tab listing out all "
+#~ "the individual working hours by day and time."
+#~ msgstr ""
+#~ "Para criar um novo horário de trabalho, navegue "
+#~ "até :menuselection:`aplicativo Folha de Pagamento --> Configuração --> "
+#~ "Horários de Trabalho` e clique em :guilabel:`Novo`. O "
+#~ "formulário :guilabel:`Horários de Trabalho` tem duas seções, uma seção de "
+#~ "informações gerais e uma aba :guilabel:`Horas de Trabalho` listando todas "
+#~ "as horas de trabalho individuais por dia e hora."
+
+#~ msgid ""
+#~ ":guilabel:`Name`: Type in the name for the new default working schedule. "
+#~ "This should be descriptive and clear to understand, such as `Standard 20 "
+#~ "Hours/Week`."
+#~ msgstr ""
+#~ ":guilabel:`Nome`: Digite o nome para o novo horário de trabalho padrão. "
+#~ "Ele deve ser descritivo e claro para entender, como `Padrão 20 Horas/"
+#~ "Semana`."
+
+#~ msgid ""
+#~ ":guilabel:`Flexible Hours`: Tick this checkbox if employees can work "
+#~ "different hours from the working schedule."
+#~ msgstr ""
+#~ ":guilabel:`Horas Flexíveis`: Marque esta caixa de seleção se os "
+#~ "funcionários puderem trabalhar horas diferentes do horário de trabalho."
+
+#~ msgid ""
+#~ ":guilabel:`Company Full Time`: Enter the number of hours per week an "
+#~ "employee would need to work to be considered a full-time employee. "
+#~ "Typically, this is approximately 40 hours, and this number affects what "
+#~ "types of benefits an employee can receive, based on their employment "
+#~ "status (full-time vs part-time)."
+#~ msgstr ""
+#~ ":guilabel:`Tempo Integral da Empresa`: Insira o número de horas por "
+#~ "semana que um funcionário precisaria trabalhar para ser considerado um "
+#~ "funcionário em tempo integral. Normalmente, isso é aproximadamente 40 "
+#~ "horas, e esse número afeta quais tipos de benefícios um funcionário pode "
+#~ "receber, com base em seu status de emprego (tempo integral vs tempo "
+#~ "parcial)."
+
+#~ msgid ""
+#~ ":guilabel:`Average Hour Per Day`: The average hours per day field is auto-"
+#~ "populated, based on the working hours configured in "
+#~ "the :guilabel:`Working Hours` tab. This entry affects resource planning, "
+#~ "since the average daily hours affect what resources can be used, and in "
+#~ "what quantity, per workday."
+#~ msgstr ""
+#~ ":guilabel:`Média de Horas por Dia`: O campo de média de horas por dia é "
+#~ "preenchido automaticamente, com base nas horas de trabalho configuradas "
+#~ "na aba :guilabel:`Horas de Trabalho`. Esta entrada afeta o planejamento "
+#~ "de recursos, pois as horas diárias médias afetam quais recursos podem ser "
+#~ "usados e em que quantidade por dia útil."
+
+#~ msgid ""
+#~ "Next, configure the individual hours in the :guilabel:`Working Hours` "
+#~ "tab. This tab lists the specific working hours for each day."
+#~ msgstr ""
+#~ "Em seguida, configure as horas individuais na aba :guilabel:`Horas de "
+#~ "Trabalho`. Esta aba lista as horas de trabalho específicas para cada dia."
+
+#~ msgid ""
+#~ "The :guilabel:`Working Hours` are auto-populated for a default 40-hour "
+#~ "work week, with each day divided into three timed sections."
+#~ msgstr ""
+#~ "As :guilabel:`Horas de Trabalho` são preenchidas automaticamente para uma "
+#~ "semana de trabalho padrão de 40 horas, com cada dia dividido em três "
+#~ "seções de tempo."
+
+#~ msgid ""
+#~ "Every day has morning (8:00-12:00), lunch (12:00-13:00), and evening "
+#~ "(13:00-17:00) hours configured."
+#~ msgstr ""
+#~ "Cada dia tem horários de manhã (8:00-12:00), almoço (12:00-13:00) e tarde "
+#~ "(13:00-17:00) configurados."
+
+#~ msgid ""
+#~ "The :guilabel:`Work From` and :guilabel:`Work To` times **must** be in a "
+#~ "24-hour format. For example, `2:00 PM` is entered as `14:00`."
+#~ msgstr ""
+#~ "Os horários :guilabel:`Trabalhar De` e :guilabel:`Trabalhar Até` "
+#~ "**devem** estar em formato de 24 horas. Por exemplo, `2:00 PM` é inserido "
+#~ "como `14:00`."
+
+#~ msgid ""
+#~ "Modify the :guilabel:`Day of Week`, :guilabel:`Day Period`, "
+#~ "and :guilabel:`Work Entry Type` selections by clicking on the drop-down "
+#~ "menus in each column and making the desired selection. "
+#~ "The :guilabel:`Work From` and :guilabel:`Work To` columns are modified by "
+#~ "typing in the time."
+#~ msgstr ""
+#~ "Modifique as seleções :guilabel:`Dia da Semana`, :guilabel:`Período do "
+#~ "Dia` e :guilabel:`Tipo de Entrada de Trabalho` clicando nos menus "
+#~ "suspensos em cada coluna e fazendo a seleção desejada. As "
+#~ "colunas :guilabel:`Trabalhar De` e :guilabel:`Trabalhar Até` são "
+#~ "modificadas digitando o horário."
+
+#~ msgid ""
+#~ "Keep in mind, working hours are company-specific, and **cannot** be "
+#~ "shared between companies. Each company needs to have its own working "
+#~ "hours set."
+#~ msgstr ""
+#~ "Tenha em mente que os horários de trabalho são específicos da empresa e "
+#~ "**não podem** ser compartilhados entre empresas. Cada empresa precisa ter "
+#~ "seus próprios horários de trabalho definidos."
+
+#~ msgid ":doc:`recruitment/velocity_analysis`"
+#~ msgstr ":doc:`recruitment/velocity_analysis`"
+
+#~ msgid "Velocity analysis"
+#~ msgstr "Análise de velocidade"
+
+#~ msgid "Velocity analysis report"
+#~ msgstr "Relatório de análise de velocidade"
+
+#~ msgid ""
+#~ "To access the report, navigate to :menuselection:`Recruitment app --> "
+#~ "Reporting --> Velocity Analysis`. By default, the report displays data "
+#~ "for all job positions, with the stages populating the x-axis, and the "
+#~ "number of days populating the y-axis, in a :icon:`fa-line-"
+#~ "chart` :guilabel:`(Line Chart)`."
+#~ msgstr ""
+#~ "Para acessar o relatório, navegue até :menuselection:`Aplicativo "
+#~ "Recrutamento --> Relatórios --> Análise de Velocidade`. Por padrão, o "
+#~ "relatório exibe dados de todas as vagas, com as etapas preenchendo o eixo "
+#~ "x e o número de dias preenchendo o eixo y, em um :icon:`fa-line-"
+#~ "chart` :guilabel:`(Gráfico de Linhas)`."
+
+#~ msgid ""
+#~ "Hover over a stage in the line chart to reveal a popover window listing "
+#~ "all the job positions within it, and the average number of days each job "
+#~ "position sits in each stage."
+#~ msgstr ""
+#~ "Passe o mouse sobre um estágio no gráfico de linhas para revelar uma "
+#~ "janela pop-over que lista todas as vagas nele e o número médio de dias "
+#~ "que cada vaga fica em cada estágio."
+
+#~ msgid ""
+#~ "For a more visually digestible view of the information in "
+#~ "the :guilabel:`Velocity Analysis` report, click the :icon:`fa-bar-"
+#~ "chart` :guilabel:`(Bar Chart)` icon in the upper-left corner. This "
+#~ "displays all the information in a bar chart."
+#~ msgstr ""
+#~ "Para uma visualização mais digerível das informações no "
+#~ "relatório :guilabel:`Análise de Velocidade`, clique no ícone :icon:`fa-"
+#~ "bar-chart` :guilabel:`(Gráfico de Barras)` no canto superior esquerdo. "
+#~ "Isso exibe todas as informações em um gráfico de barras."
+
+#~ msgid "The bar chart view of the Velocity Analysis report."
+#~ msgstr ""
+#~ "A visualização em gráfico de barras do relatório Análise de Velocidade."
+
+#~ msgid ""
+#~ "With the :guilabel:`Velocity Analysis` report, it is possible to see if "
+#~ "there are certain months where applicants take longer to be moved through "
+#~ "the pipeline. To view this data, switch to the :icon:`oi-view-"
+#~ "pivot` :guilabel:`(Pivot)` view in the upper-right corner."
+#~ msgstr ""
+#~ "Com o relatório :guilabel:`Análise de Velocidade`, é possível ver se há "
+#~ "determinados meses em que os candidatos levam mais tempo para avançar no "
+#~ "processo. Para visualizar esses dados, alterne para a "
+#~ "visualização :icon:`oi-view-pivot` :guilabel:`(Tabela Dinâmica)` no canto "
+#~ "superior direito."
+
+#~ msgid ""
+#~ "This presents the data in a detailed pivot table, with the rows "
+#~ "representing the different job positions, and the columns representing "
+#~ "the stages. The average :guilabel:`Days in Stage` populates the various "
+#~ "boxes."
+#~ msgstr ""
+#~ "Isso apresenta os dados em uma tabela de pivô detalhada, com as linhas "
+#~ "representando os diferentes cargos e as colunas representando os "
+#~ "estágios. A média de :guilabel:`Dias no estágio` preenche as diversas "
+#~ "caixas."
+
+#~ msgid ""
+#~ "Click :icon:`fa-minus-square-o` :guilabel:`Total` above the job position "
+#~ "rows to collapse the information. Next, click :icon:`fa-plus-"
+#~ "square` :guilabel:`Total` again, revealing a drop-down menu. "
+#~ "Click :guilabel:`Add Custom Group` :icon:`fa-caret-down` at the bottom of "
+#~ "the list, revealing further grouping options. Click :guilabel:`Start "
+#~ "Date` from the expanded list."
+#~ msgstr ""
+#~ "Clique em :icon:`fa-minus-square-o` :guilabel:`Total` acima das linhas de "
+#~ "vagas para colapsar as informações. Em seguida, clique novamente "
+#~ "em :icon:`fa-plus-square` :guilabel:`Total` para abrir um menu suspenso. "
+#~ "Clique em :guilabel:`Adicionar grupo personalizado` :icon:`fa-caret-down` "
+#~ "na parte inferior da lista, revelando outras opções de agrupamento. "
+#~ "Clique em :guilabel:`Data de início` na lista expandida."
+
+#~ msgid ""
+#~ "After doing so, the data presented is grouped with the various months "
+#~ "from the previous 365 days for the rows, leaving the :guilabel:`Days In "
+#~ "Stage` as the columns."
+#~ msgstr ""
+#~ "Depois de fazer isso, os dados apresentados são agrupados com os meses "
+#~ "dos 365 dias anteriores como linhas, deixando :guilabel:`Dias no estágio` "
+#~ "como colunas."
+
+#~ msgid ""
+#~ "In this example, :guilabel:`July 2024` had the longest time that "
+#~ "applicants spent in each stage, on average. In addition, "
+#~ "the :guilabel:`Contract Proposal` stage had the longest wait time in "
+#~ "July, with an average of :guilabel:`31.62` days in that stage."
+#~ msgstr ""
+#~ "Nesse exemplo, o tempo mais longo que os candidatos passaram em cada "
+#~ "etapa, em média, foi em :guilabel:`Julho de 2024`. Além disso, a "
+#~ "etapa :guilabel:`Proposta de contrato` teve o maior tempo de espera em "
+#~ "julho, com uma média de :guilabel:`31,62` dias nessa etapa."
 
 #~ msgid ""
 #~ "A country-specific localization module :ref:`must be installed <general/"
